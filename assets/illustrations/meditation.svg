@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="meditation-title">
+  <title id="meditation-title">静心呼吸：像莲花一样轻轻舒展</title>
+  <g stroke="#C5DFEC" stroke-width="2.5"><path d="M44 111c17 10 75 10 92 0M57 124c17 4 49 4 66 0"/></g>
+  <g fill="#BDDDD5" stroke="#96BEB2" stroke-width="2.5">
+    <path d="M90 105C61 117 32 97 29 71c24-3 50 7 61 34Z"/>
+    <path d="M90 105c29 12 58-8 61-34-24-3-50 7-61 34Z"/>
+    <path d="M42 83c16 3 30 10 42 18m54-18c-16 3-30 10-42 18" stroke="#E8F5EE"/>
+  </g>
+  <g fill="#EBC3D3" stroke="#D1A5BA" stroke-width="2.5">
+    <path d="M90 105C62 98 47 76 51 48c25 5 40 25 39 57Z"/>
+    <path d="M90 105c28-7 43-29 39-57-25 5-40 25-39 57Z"/>
+  </g>
+  <g>
+    <path d="M90 104C62 85 65 54 90 29c25 25 28 56 0 75Z" fill="#DBEAF7" stroke="#A2C3DC" stroke-width="2.5"/>
+    <path d="M90 49v37" stroke="#F7FBFE" stroke-width="3"/>
+  </g>
+  <g stroke="#C0DCE7" stroke-width="2.5"><path d="M23 59c-4-13 1-26 11-33m-2-1 4-1-1 6M157 59c4-13-1-26-11-33m2-1-4-1 1 6"/></g>
+  <circle cx="90" cy="15" r="5" fill="#F3D7B5"/>
+</svg>

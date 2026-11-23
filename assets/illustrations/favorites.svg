@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="favorites-title">
+  <title id="favorites-title">我的收藏：把喜爱收进星形书签</title>
+  <g transform="rotate(-8 87 73)">
+    <rect x="33" y="31" width="102" height="91" rx="18" fill="#C5DEEF" stroke="#9BBFD9" stroke-width="2.5"/>
+    <path d="M48 31h75v78H48a12 12 0 0 0 0 13H43a10 10 0 0 1-10-10V45a14 14 0 0 1 15-14Z" fill="#DCECF7"/>
+    <path d="M50 31v75m4 6h70" stroke="#A9C9DD" stroke-width="2.5"/>
+    <path d="M57 113h66m-66 4h62" stroke="#F5FAFD" stroke-width="2"/>
+    <path d="M66 20h40a8 8 0 0 1 8 8v66a3 3 0 0 1-5 2L86 81 63 96a3 3 0 0 1-5-2V28a8 8 0 0 1 8-8Z" fill="#B9DCD5" stroke="#90BBAF" stroke-width="2.5"/>
+    <path d="M86 36c1-2 3-2 4 0l5 10 11 2c2 0 3 3 1 4l-8 8 2 11c0 2-2 3-4 2l-11-6-10 6c-2 1-4 0-4-2l2-11-8-8c-2-1-1-4 1-4l12-2Z" fill="#F7D9B5" stroke="#D6AF81" stroke-width="2.5"/>
+    <path d="m81 50 5-9" stroke="#FFF2DF" stroke-width="3"/>
+  </g>
+  <g stroke="#D1A4BB" stroke-width="2.5"><path d="M145 35v12m-6-6h12M151 79v8m-4-4h8"/></g>
+  <circle cx="23" cy="73" r="4" fill="#BCDCD8"/>
+</svg>

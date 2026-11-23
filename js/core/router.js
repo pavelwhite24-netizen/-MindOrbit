@@ -23,7 +23,7 @@
       this.go(first,true);
     },
     async go(path, replace = false) {
-      if (!/^\/(?:module\/[A-F]|(?:rules|play|interrupted)\/[A-F][1-3]|result\/[\w-]+|history|settings)?$/.test(path)) path = '/';
+      if (!/^\/(?:module\/[A-F]|(?:rules|play|interrupted)\/[A-F][1-3]|result\/[\w-]+|all(?:\/(?:advanced|meditation|timer))?|scores(?:\/(?:radar|records|progress))?|favorites|history|settings)?$/.test(path)) path = '/';
       if (path === this.path && !replace) return;
       if (this.before && !await this.before(path)) return;
       this.path = path;

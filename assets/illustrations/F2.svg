@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="f2-title">
+  <title id="f2-title">连加心算：把接连出现的数字汇成总和</title>
+  <g>
+    <path d="M35 119h111" stroke="#D9E9F3" stroke-width="4"/>
+    <path d="M50 87h80l-7 27a10 10 0 0 1-10 8H67a10 10 0 0 1-10-8Z" fill="#C3DFEE" stroke="#93BBD5" stroke-width="2.5"/>
+    <rect x="44" y="80" width="92" height="17" rx="8.5" fill="#DCEEF8" stroke="#93BBD5" stroke-width="2.5"/>
+    <text x="90" y="115" text-anchor="middle" fill="#638DAA" font-family="Arial, sans-serif" font-size="20" font-weight="700">10</text>
+  </g>
+  <g transform="rotate(-13 37 49)">
+    <rect x="22" y="31" width="30" height="35" rx="10" fill="#BBDCD3" stroke="#91BAAE" stroke-width="2"/>
+    <text x="37" y="56" text-anchor="middle" fill="#53887D" font-family="Arial, sans-serif" font-size="23" font-weight="700">2</text>
+  </g>
+  <g transform="rotate(4 88 31)">
+    <rect x="73" y="14" width="30" height="35" rx="10" fill="#F5D5B2" stroke="#D7B087" stroke-width="2"/>
+    <text x="88" y="39" text-anchor="middle" fill="#AB8058" font-family="Arial, sans-serif" font-size="23" font-weight="700">5</text>
+  </g>
+  <g transform="rotate(13 141 49)">
+    <rect x="126" y="31" width="30" height="35" rx="10" fill="#EAC0D0" stroke="#CDA0B4" stroke-width="2"/>
+    <text x="141" y="56" text-anchor="middle" fill="#AD778E" font-family="Arial, sans-serif" font-size="23" font-weight="700">3</text>
+  </g>
+  <g stroke="#A7C3D6" stroke-width="2.5"><path d="M60 43v9m-4.5-4.5h9M113 43v9m-4.5-4.5h9"/></g>
+  <g stroke="#ACCBC4" stroke-width="2.5"><path d="M47 70l7 6m78-6-7 6M89 57v14m-5-4 5 5 5-5"/></g>
+</svg>

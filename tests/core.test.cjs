@@ -20,6 +20,46 @@ test('all games zero, maximum and finite normalization boundaries',()=>{
  for(const value of [-100,0,.49,.5,45.49999999999999,99.5,100,1000])assert.ok(Number.isInteger(M.scoring.normalize(value))&&M.scoring.normalize(value)>=0&&M.scoring.normalize(value)<=100);
  assert.equal(M.scoring.normalize(45.49999999999999),46);for(const value of [NaN,Infinity,-Infinity])assert.throws(()=>M.scoring.normalize(value));assert.throws(()=>M.scoring.speed(null,1,2));
 });
+test('favorites persist, reject malformed IDs and do not alter training counts',()=>{
+ const b=backend(),s=M.storage.create(b),ids=['A1','E2'];
+ assert.equal(s.settings({favorites:ids}),true);ids.push('F3');
+ assert.deepEqual(json(s.data.settings.favorites),['A1','E2']);
+ assert.deepEqual(json(M.storage.create(b).data.settings.favorites),['A1','E2']);
+ assert.equal(Object.keys(s.data.games).length,0);assert.equal(s.data.streak.totalDays,0);
+ for(const favorites of [null,'A1',['A1','A1'],['constructor'],['__proto__'],['Z1'],[1]]){
+  const before=JSON.stringify(s.data);assert.throws(()=>s.settings({favorites}),/设置无效/);assert.equal(JSON.stringify(s.data),before);
+  const invalid={...json(s.data),settings:{...s.data.settings,favorites}};const source=JSON.stringify(invalid),bad=backend(source),restored=M.storage.create(bad);
+  assert.equal(restored.persistent,false);assert.equal(bad.getItem(M.storage.KEY),source);
+ }
+ s.settings({favorites:[]});assert.deepEqual(json(M.storage.create(b).data.settings.favorites),[]);
+ s.reset();assert.equal(s.data.settings.favorites,undefined);
+});
+test('favorites follow quota and conflict protections without overwriting snapshots',()=>{
+ const b=backend(),one=M.storage.create(b),two=M.storage.create(b);one.settings({favorites:['A1']});const old=b.getItem(M.storage.KEY);
+ assert.equal(two.settings({favorites:['B1']}),false);assert.equal(b.getItem(M.storage.KEY),old);
+ b.setItem=()=>{throw new Error('quota');};assert.equal(one.settings({favorites:['E2']}),false);assert.equal(b.getItem(M.storage.KEY),old);
+ assert.deepEqual(json(one.data.settings.favorites),['E2']);
+});
+test('growth timeline leaves missing coverage null and rebuilds equal-weight current scores',()=>{
+ const data={games:{}};assert.deepEqual(json(M.scoring.timeline(data)),[]);
+ const sample=(id,day,score,version='1',hour='09')=>({gameId:id,localDay:day,completedAt:day+'T'+hour+':00:00Z',score,rulesVersion:version});
+ data.games.A1={history:[sample('A1','2026-11-20',80)]};
+ assert.deepEqual(json(M.scoring.timeline(data)),[{day:'2026-11-20',score:null,coverage:1}]);
+ for(const id of Object.keys(M.games))data.games[id]={history:[sample(id,'2026-11-21',50)]};
+ data.games.A1.history.push(sample('A1','2026-11-22',100));
+ let points=M.scoring.timeline(data);assert.equal(points.length,2);assert.equal(points[0].score,50);assert.equal(points[1].score,M.scoring.portrait(data).score);
+ assert.ok(Math.abs(points[1].score-(50+25/18))<1e-8);
+ data.games.A1.history.push(sample('A1','2026-11-23',100,'0'));
+ const unchanged=JSON.stringify(data);points=M.scoring.timeline(data);assert.equal(points.length,2);assert.equal(JSON.stringify(data),unchanged);
+});
+test('growth timeline sorts chronology and takes the latest five per game at each day end',()=>{
+ const data={games:{}};
+ for(const id of Object.keys(M.games))data.games[id]={history:[{gameId:id,localDay:'2026-11-01',completedAt:'2026-11-01T08:00:00Z',score:100,rulesVersion:'1'}]};
+ for(let i=0;i<7;i++)data.games.A1.history.push({gameId:'A1',localDay:'2026-11-02',completedAt:`2026-11-02T0${i}:00:00Z`,score:i*10,rulesVersion:'1'});
+ data.games.A1.history.reverse();const points=M.scoring.timeline(data);
+ assert.equal(points.length,2);assert.equal(points[0].score,100);assert.ok(Math.abs(points[1].score-(100-60/18))<1e-8);
+ assert.equal(points[1].coverage,18);
+});
 test('rank boundaries use unrounded values',()=>{for(const[value,name]of [[0,'星尘'],[19.999,'星尘'],[20,'卫星'],[34.999,'卫星'],[35,'行星'],[50,'恒星'],[65,'星云'],[80,'星系'],[90,'黑洞'],[100,'黑洞']])assert.equal(M.scoring.rank(value),name);assert.equal(M.scoring.rank(null),null);});
 test('seeded shuffle is reproducible and preserves multiplicities',()=>{const a=M.random('test'),b=M.random('test');for(let i=0;i<100;i++)assert.deepEqual(json(a.shuffle([0,0,1,2,3])),json(b.shuffle([0,0,1,2,3])));const shuffled=M.random('other').shuffle([1,2,3,4]);assert.deepEqual(json(shuffled.sort()),[1,2,3,4]);});
 test('portrait never imputes missing games, isolates rules, weights games equally',()=>{const data=M.storage.fresh();data.games.A1={history:[60,80].map(score=>({score,rulesVersion:'1'}))};data.games.A2={history:[{score:50,rulesVersion:'1'},{score:100,rulesVersion:'0'}]};data.games.A3={history:[{score:90,rulesVersion:'1'}]};let p=M.scoring.portrait(data);assert.equal(p.modules[0].score,70);assert.equal(p.coverage,3);assert.equal(p.score,null);data.games.A1.history.push(...[10,20,30,40,50,60].map(score=>({score,rulesVersion:'1'})));p=M.scoring.portrait(data);assert.equal(p.games.A1.score,40);assert.equal(p.modules[0].score,60);for(const id of Object.keys(M.games))data.games[id]={history:[{score:90,rulesVersion:'1'}]};assert.equal(M.scoring.portrait(data).rank,'黑洞');});

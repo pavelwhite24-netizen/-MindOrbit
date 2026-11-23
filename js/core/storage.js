@@ -20,6 +20,7 @@
   };
   const integer = (value, min = 0, max = Number.MAX_SAFE_INTEGER) => Number.isSafeInteger(value) && value >= min && value <= max;
   const object = value => value !== null && typeof value === 'object' && !Array.isArray(value);
+  const validFavorites = value => Array.isArray(value) && value.length <= 18 && new Set(value).size === value.length && value.every(id => typeof id === 'string' && Object.prototype.hasOwnProperty.call(M.catalog,id));
   const finiteTree = (value, depth = 0) => {
     if (depth > 12) return false;
     if (value === null || typeof value === 'boolean') return true;
@@ -130,6 +131,7 @@
   };
   const validate = data => {
     if (!object(data) || data.schemaVersion !== 1 || !integer(data.revision) || !(data.updatedAt === null || validIso(data.updatedAt)) || !object(data.settings) || typeof data.settings.sound !== 'boolean' || !['system','on','off'].includes(data.settings.reducedMotion) || !object(data.streak) || !object(data.games)) return false;
+    if (data.settings.favorites !== undefined && !validFavorites(data.settings.favorites)) return false;
     const s = data.streak;
     if (!integer(s.current) || !integer(s.longest) || !integer(s.totalDays) || s.longest < s.current || s.totalDays < s.longest) return false;
     try { if (s.lastLocalDay !== null) dayNumber(s.lastLocalDay); else if (s.totalDays !== 0) return false; } catch { return false; }
@@ -192,7 +194,8 @@
       settings(patch) {
         if (patch.sound !== undefined && typeof patch.sound !== 'boolean') throw new Error('设置无效');
         if (patch.reducedMotion !== undefined && !['on','off','system'].includes(patch.reducedMotion)) throw new Error('设置无效');
-        data.settings = { ...data.settings,...patch }; data.revision++; data.updatedAt = new Date().toISOString(); return flush();
+        if (patch.favorites !== undefined && !validFavorites(patch.favorites)) throw new Error('设置无效');
+        data.settings = { ...data.settings,...patch, ...(patch.favorites ? { favorites: patch.favorites.slice() } : {}) }; data.revision++; data.updatedAt = new Date().toISOString(); return flush();
       },
       reset() {
         try { backend.removeItem(KEY); data = fresh(); baseline = null; raw = null; persistent = true; reason = ''; submitted.clear(); return flush(); }

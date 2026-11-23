@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="b3-title">
+  <title id="b3-title">类比联想：手套与手，袜子与脚</title>
+  <g transform="rotate(-8 44 42)">
+    <path d="M31 57V34c0-10 6-17 15-17s14 7 14 16v9l5-7c6-6 13 0 9 7L60 63H35Z" fill="#BDD9EE" stroke="#8FB8D2" stroke-width="2.5"/>
+    <rect x="29" y="55" width="30" height="13" rx="5" fill="#A4C8E2" stroke="#8FB8D2" stroke-width="2"/>
+    <path d="M38 60v3m7-3v3m7-3v3" stroke="#EAF4FB" stroke-width="2"/>
+  </g>
+  <g>
+    <path d="M114 64c-4-7-9-15-11-20-2-5 4-8 7-4l5 6V26c0-6 8-6 8 0v12-17c0-6 8-6 8 0v17-13c0-6 8-6 8 0v15-8c0-6 8-6 8 0v18c0 8-4 12-6 17" fill="#F7D9BD" stroke="#D6B18D" stroke-width="2.5"/>
+    <path d="M120 67h17" stroke="#D6B18D" stroke-width="2.5"/>
+  </g>
+  <g transform="rotate(7 49 102)">
+    <path d="M36 83h25v23l-20 15c-13 8-25-7-15-15l10-7Z" fill="#EDC5D3" stroke="#CEA1B5" stroke-width="2.5"/>
+    <path d="M38 90h21m-28 16 12 12" stroke="#FCEDF3" stroke-width="4"/>
+  </g>
+  <g>
+    <path d="M122 83h19v24c0 11-7 17-18 17h-13c-9 0-11-10-4-14l15-8Z" fill="#F7D9BD" stroke="#D6B18D" stroke-width="2.5"/>
+    <path d="M111 115v4m6-4v4" stroke="#D6B18D" stroke-width="2"/>
+  </g>
+  <g stroke="#9FC9C4" stroke-width="2.5"><path d="M80 44h15m-5-5 5 5-5 5M80 101h15m-5-5 5 5-5 5"/><path d="M84 70h8m-8 5h8"/></g>
+</svg>

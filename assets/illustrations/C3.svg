@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="c3-title">
+  <title id="c3-title">真假推理：从三条陈述找到真相</title>
+  <g>
+    <path d="M29 24h42a12 12 0 0 1 12 12v19a12 12 0 0 1-12 12H50L35 78V67h-6a12 12 0 0 1-12-12V36a12 12 0 0 1 12-12Z" fill="#E2EEF8" stroke="#ACCDE2" stroke-width="2.5"/>
+    <path d="M31 39h35m-35 11h23" stroke="#96B8D1" stroke-width="3"/>
+  </g>
+  <g>
+    <path d="M109 21h37a12 12 0 0 1 12 12v18a12 12 0 0 1-12 12h-5v11l-14-11h-18a12 12 0 0 1-12-12V33a12 12 0 0 1 12-12Z" fill="#F8E2E9" stroke="#D8B1C2" stroke-width="2.5"/>
+    <path d="M110 35h34m-34 11h22" stroke="#CEA3B7" stroke-width="3"/>
+  </g>
+  <g>
+    <path d="M54 79h45a12 12 0 0 1 12 12v20a12 12 0 0 1-12 12H77l-14 9v-9h-9a12 12 0 0 1-12-12V91a12 12 0 0 1 12-12Z" fill="#D9ECE5" stroke="#A1C7BB" stroke-width="2.5"/>
+    <path d="M56 94h31m-31 11h21" stroke="#8CB9AA" stroke-width="3"/>
+  </g>
+  <g transform="rotate(-14 129 91)">
+    <path d="m140 105 14 17" stroke="#9BBAD0" stroke-width="12"/>
+    <path d="m140 105 14 17" stroke="#BFD9EA" stroke-width="7"/>
+    <circle cx="127" cy="89" r="24" fill="#FFFCF4" stroke="#D8B88F" stroke-width="4"/>
+    <path d="m116 89 8 8 14-16" stroke="#91BDB0" stroke-width="4"/>
+    <path d="M112 79c2-3 4-5 8-6" stroke="#EAD5B7" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="c2-title">
+  <title id="c2-title">图形规律：发现每一步的方向变化</title>
+  <path d="M75 43h28m48 0h3c20 0 20 56 0 56h-3m-48 0H75" stroke="#BED7E7" stroke-width="2.5" stroke-dasharray="3 6"/>
+  <g transform="rotate(-5 51 43)">
+    <rect x="27" y="20" width="48" height="46" rx="14" fill="#E5F0F9" stroke="#AACBDF" stroke-width="2.5"/>
+    <path d="m51 31 12 20H39Z" fill="#9BBFDA" stroke="#85AAC7" stroke-width="2"/>
+  </g>
+  <g transform="rotate(5 127 43)">
+    <rect x="103" y="20" width="48" height="46" rx="14" fill="#E5F2ED" stroke="#A2C9BE" stroke-width="2.5"/>
+    <path d="m139 43-20 12V31Z" fill="#9CCAC0" stroke="#85B5A8" stroke-width="2"/>
+  </g>
+  <g transform="rotate(5 127 99)">
+    <rect x="103" y="76" width="48" height="46" rx="14" fill="#FBE8D5" stroke="#DDBC98" stroke-width="2.5"/>
+    <path d="m127 111-12-20h24Z" fill="#E6BC90" stroke="#CEA67C" stroke-width="2"/>
+  </g>
+  <g transform="rotate(-5 51 99)">
+    <rect x="27" y="76" width="48" height="46" rx="14" fill="#F7E8EF" stroke="#D5AFBF" stroke-width="2.5"/>
+    <path d="m39 99 20-12v24Z" stroke="#CC99B1" stroke-width="2.5" stroke-dasharray="3 4"/>
+  </g>
+  <g stroke="#8FAFC5" stroke-width="2.5"><path d="m84 38 5 5-5 5M172 68l-5 5-5-5M91 94l-5 5 5 5"/></g>
+</svg>

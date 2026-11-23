@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="a2-title">
+  <title id="a2-title">数字广度：留住依次出现的数字</title>
+  <path d="M27 107c24 16 90 17 126-18" stroke="#BBD8E9" stroke-width="2.5" stroke-dasharray="3 7"/>
+  <g transform="rotate(-9 46 68)">
+    <rect x="22" y="40" width="48" height="59" rx="15" fill="#E0EDF8" stroke="#AACDE2" stroke-width="2.5"/>
+    <text x="46" y="80" fill="#668BA8" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700">3</text>
+    <path d="M35 89h21" stroke="#C2DAEC" stroke-width="3"/>
+  </g>
+  <g>
+    <rect x="67" y="25" width="48" height="63" rx="15" fill="#BBDDD9" stroke="#8FBFBB" stroke-width="2.5"/>
+    <text x="91" y="68" fill="#4E8988" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700">7</text>
+    <path d="M80 78h21" stroke="#EDF8F4" stroke-width="3"/>
+  </g>
+  <g transform="rotate(9 135 68)">
+    <rect x="111" y="40" width="48" height="59" rx="15" fill="#F7DABD" stroke="#DFBB94" stroke-width="2.5"/>
+    <text x="135" y="80" fill="#AD815C" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700">2</text>
+    <path d="M124 89h21" stroke="#FFF4E8" stroke-width="3"/>
+  </g>
+  <path d="m149 107 5-17-17 5" stroke="#98BECE" stroke-width="2.5"/>
+  <g fill="#E8B8CC"><circle cx="51" cy="25" r="3"/><circle cx="138" cy="24" r="4"/><circle cx="89" cy="111" r="3"/></g>
+</svg>

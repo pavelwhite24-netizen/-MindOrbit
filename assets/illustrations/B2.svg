@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="b2-title">
+  <title id="b2-title">图形完形：把缺失的一角补回圆中</title>
+  <g>
+    <path d="M83 29a44 44 0 1 0 44 44H83Z" fill="#D5E9F7" stroke="#9BBFD8" stroke-width="2.5"/>
+    <path d="M83 73v44a44 44 0 0 1-44-44Z" fill="#BBDCD6"/>
+    <path d="M83 29v44h44M39 73h44v44" stroke="#9BBFD8" stroke-width="2.5"/>
+    <path d="M52 50c5-7 10-11 17-13" stroke="#F5FAFE" stroke-width="5"/>
+    <path d="M49 89c4 9 10 14 20 18" stroke="#EAF6F0" stroke-width="4"/>
+  </g>
+  <path d="M83 29a44 44 0 0 1 44 44" stroke="#BBD2E3" stroke-width="2.5" stroke-dasharray="3 6"/>
+  <g transform="rotate(10 124 48)">
+    <path d="M110 14a44 44 0 0 1 44 44h-44Z" fill="#F5D5B4" stroke="#D6B187" stroke-width="2.5"/>
+    <path d="M120 26c9 4 16 11 21 20" stroke="#FFF1DF" stroke-width="4"/>
+  </g>
+  <path d="m119 91-12-2 3-11m-3 11 14-14" stroke="#D5A5B9" stroke-width="2.5"/>
+  <g fill="#D4E9F2"><circle cx="30" cy="40" r="4"/><circle cx="144" cy="108" r="5"/></g>
+</svg>

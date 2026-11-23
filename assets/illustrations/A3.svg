@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="a3-title">
+  <title id="a3-title">配对翻牌：翻开一对相同的小花</title>
+  <g transform="rotate(-15 48 78)">
+    <rect x="22" y="40" width="51" height="75" rx="13" fill="#BDD9EE" stroke="#91B9D4" stroke-width="2.5"/>
+    <rect x="29" y="47" width="37" height="61" rx="8" stroke="#EEF7FC" stroke-width="2"/>
+    <path d="m48 62 12 15-12 15-12-15Z" fill="#ECF5FC"/>
+  </g>
+  <g transform="rotate(7 126 78)">
+    <rect x="101" y="39" width="52" height="76" rx="13" fill="#F3F9FC" stroke="#A8CADF" stroke-width="2.5"/>
+    <path d="M126 62c-11-14-22 4-9 11-15 7-4 25 9 12 12 13 24-5 9-12 13-7 2-25-9-11Z" fill="#E9BFD0"/>
+    <circle cx="126" cy="74" r="5" fill="#FFF4DB"/>
+    <path d="M116 101h20" stroke="#D2E5F0" stroke-width="3"/>
+  </g>
+  <g transform="rotate(-4 83 81)">
+    <rect x="57" y="43" width="52" height="76" rx="13" fill="#FFFCF7" stroke="#D9BF9F" stroke-width="2.5"/>
+    <path d="M83 66c-11-14-22 4-9 11-15 7-4 25 9 12 12 13 24-5 9-12 13-7 2-25-9-11Z" fill="#E9BFD0"/>
+    <circle cx="83" cy="78" r="5" fill="#FFF4DB"/>
+    <path d="M73 105h20" stroke="#F0DCC5" stroke-width="3"/>
+  </g>
+  <path d="M63 28c15-14 38-12 50 0m-1-10 2 11-11-1" stroke="#9DC8C3" stroke-width="3"/>
+  <path d="M156 25v10m-5-5h10" stroke="#E7B8CA" stroke-width="2.5"/>
+</svg>

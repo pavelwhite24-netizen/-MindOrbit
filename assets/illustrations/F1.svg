@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="f1-title">
+  <title id="f1-title">速算：让四则运算轻快起来</title>
+  <g transform="rotate(-8 76 71)">
+    <rect x="36" y="19" width="80" height="108" rx="21" fill="#B8D6EB"/>
+    <rect x="36" y="14" width="80" height="108" rx="21" fill="#E5F0F9" stroke="#9CBFD9" stroke-width="2.5"/>
+    <rect x="47" y="27" width="58" height="27" rx="8" fill="#B9DCD5"/>
+    <text x="96" y="47" text-anchor="end" fill="#568B83" font-family="Arial, sans-serif" font-size="21" font-weight="700">9</text>
+    <rect x="47" y="64" width="25" height="20" rx="7" fill="#F7D6B3"/>
+    <rect x="80" y="64" width="25" height="20" rx="7" fill="#C5DFF0"/>
+    <rect x="47" y="91" width="25" height="20" rx="7" fill="#C5DFF0"/>
+    <rect x="80" y="91" width="25" height="20" rx="7" fill="#EAC0D0"/>
+    <path d="M54 74h11m-5.5-5.5v11M87 74h11M55 97l9 9m-9 0 9-9M87 101h11" stroke="#7799B1" stroke-width="2.5"/>
+    <circle cx="92.5" cy="96" r="1.5" fill="#7799B1"/><circle cx="92.5" cy="106" r="1.5" fill="#7799B1"/>
+  </g>
+  <g transform="rotate(9 138 57)">
+    <path d="m140 25-23 34a4 4 0 0 0 3 6h14l-7 26 30-36a4 4 0 0 0-3-7h-16Z" fill="#F6D8B6" stroke="#D9B38A" stroke-width="2.5"/>
+    <path d="m136 40-9 16h11" stroke="#FFF0DE" stroke-width="3"/>
+  </g>
+  <path d="M25 41h-8m10-13-6-5M136 111h12" stroke="#A3C9C0" stroke-width="3"/>
+</svg>

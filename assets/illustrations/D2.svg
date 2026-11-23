@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="d2-title">
+  <title id="d2-title">色词干扰：看墨色，不读字义</title>
+  <g transform="rotate(-7 70 62)">
+    <rect x="27" y="30" width="92" height="67" rx="18" fill="#DBEAF6"/>
+    <rect x="27" y="25" width="92" height="67" rx="18" fill="#F7FBFD" stroke="#A5C8DF" stroke-width="2.5"/>
+    <text x="73" y="72" text-anchor="middle" fill="#79A8CC" font-family="sans-serif" font-size="39" font-weight="700">红</text>
+    <path d="M44 82h17m27 0h13" stroke="#DBEAF6" stroke-width="3"/>
+  </g>
+  <g transform="rotate(12 124 71)">
+    <rect x="103" y="28" width="40" height="82" rx="14" fill="#EAF3F9" stroke="#A5C8DF" stroke-width="2.5"/>
+    <circle cx="123" cy="47" r="9" fill="#E5B4C9"/>
+    <circle cx="123" cy="70" r="12" fill="#B8D5ED" stroke="#789FBD" stroke-width="2"/>
+    <path d="m117 70 4 4 8-9" stroke="#F8FCFF" stroke-width="2.5"/>
+    <circle cx="123" cy="93" r="8" fill="#A9D3C5"/>
+  </g>
+  <path d="M49 111c16 12 45 11 59 1m-10-3 11 2-4 9" stroke="#DAB48B" stroke-width="2.5"/>
+  <g fill="#F2D4B2"><circle cx="29" cy="111" r="4"/><circle cx="153" cy="23" r="4"/></g>
+</svg>

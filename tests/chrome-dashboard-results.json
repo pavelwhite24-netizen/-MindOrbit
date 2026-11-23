@@ -1,0 +1,6423 @@
+{
+  "date": "2026-11-23T03:37:08.434Z",
+  "status": "passed",
+  "errorstatus": null,
+  "checks": [
+    {
+      "name": "local server available (start tools/serve.cjs separately)",
+      "status": "passed"
+    },
+    {
+      "name": "isolated fresh profile and loaded assets",
+      "status": "passed"
+    },
+    {
+      "name": "four bottom tabs navigate through native clicks",
+      "status": "passed"
+    },
+    {
+      "name": "seven dates, exclusive aria-pressed, blue daily plan, today/start link",
+      "status": "passed"
+    },
+    {
+      "name": "empty scores/radar: shared two cards/eight badge conditions and no invented scores",
+      "status": "passed"
+    },
+    {
+      "name": "empty scores/records: shared two cards/eight badge conditions and no invented scores",
+      "status": "passed"
+    },
+    {
+      "name": "empty scores/progress: shared two cards/eight badge conditions and no invented scores",
+      "status": "passed"
+    },
+    {
+      "name": "catalog: 18 games, six modules, three columns and four real categories",
+      "status": "passed"
+    },
+    {
+      "name": "favorites: empty, add, persisted reload, native remove, persisted empty",
+      "status": "passed"
+    },
+    {
+      "name": "meditation: start/pause/resume/reset/finish, actual background pause, cleanup/no scores",
+      "status": "passed"
+    },
+    {
+      "name": "timer: start/pause/resume/reset/finish, actual background pause, cleanup/no scores",
+      "status": "passed"
+    },
+    {
+      "name": "E2 native keyboard/pointer completion saves real metrics and immediately updates dashboard",
+      "status": "passed"
+    },
+    {
+      "name": "native golden A1: valid v1 metrics, saved 100, no pending timers",
+      "status": "passed",
+      "details": {
+        "gameId": "A1",
+        "score": 100,
+        "durationMs": 12000
+      }
+    },
+    {
+      "name": "native golden A2: valid v1 metrics, saved 100, no pending timers",
+      "status": "passed",
+      "details": {
+        "gameId": "A2",
+        "score": 100,
+        "durationMs": 37100
+      }
+    },
+    {
+      "name": "native golden A3: valid v1 metrics, saved 100, no pending timers",
+      "status": "passed",
+      "details": {
+        "gameId": "A3",
+        "score": 100,
+        "durationMs": 0
+      }
+    },
+    {
+      "name": "native golden B1: valid v1 metrics, saved 100, no pending timers",
+      "status": "passed",
+      "details": {
+        "gameId": "B1",
+        "score": 100,
+        "durationMs": 6000
+      }
+    },
+    {
+      "name": "native golden B2: valid v1 metrics, saved 100, no pending timers",
+      "status": "passed",
+      "details": {
+        "gameId": "B2",
+        "score": 100,
+        "durationMs": 4800
+      }
+    },
+    {
+      "name": "native golden B3: valid v1 metrics, saved 100, no pending timers",
+      "status": "passed",
+      "details": {
+        "gameId": "B3",
+        "score": 100,
+        "durationMs": 4800
+      }
+    },
+    {
+      "name": "native golden C1: valid v1 metrics, saved 100, no pending timers",
+      "status": "passed",
+      "details": {
+        "gameId": "C1",
+        "score": 100,
+        "durationMs": 4800
+      }
+    },
+    {
+      "name": "native golden C2: valid v1 metrics, saved 100, no pending timers",
+      "status": "passed",
+      "details": {
+        "gameId": "C2",
+        "score": 100,
+        "durationMs": 4800
+      }
+    },
+    {
+      "name": "native golden C3: valid v1 metrics, saved 100, no pending timers",
+      "status": "passed",
+      "details": {
+        "gameId": "C3",
+        "score": 100,
+        "durationMs": 4800
+      }
+    },
+    {
+      "name": "native golden D1: valid v1 metrics, saved 100, no pending timers",
+      "status": "passed",
+      "details": {
+        "gameId": "D1",
+        "score": 100,
+        "durationMs": 20070
+      }
+    },
+    {
+      "name": "native golden D2: valid v1 metrics, saved 100, no pending timers",
+      "status": "passed",
+      "details": {
+        "gameId": "D2",
+        "score": 100,
+        "durationMs": 7200
+      }
+    },
+    {
+      "name": "native golden D3: valid v1 metrics, saved 100, no pending timers",
+      "status": "passed",
+      "details": {
+        "gameId": "D3",
+        "score": 100,
+        "durationMs": 30000
+      }
+    },
+    {
+      "name": "native golden E1: valid v1 metrics, saved 100, no pending timers",
+      "status": "passed",
+      "details": {
+        "gameId": "E1",
+        "score": 100,
+        "durationMs": 50000
+      }
+    },
+    {
+      "name": "native golden E3: valid v1 metrics, saved 100, no pending timers",
+      "status": "passed",
+      "details": {
+        "gameId": "E3",
+        "score": 100,
+        "durationMs": 3600
+      }
+    },
+    {
+      "name": "native golden F1: valid v1 metrics, saved 100, no pending timers",
+      "status": "passed",
+      "details": {
+        "gameId": "F1",
+        "score": 100,
+        "durationMs": 6000
+      }
+    },
+    {
+      "name": "native golden F2: valid v1 metrics, saved 100, no pending timers",
+      "status": "passed",
+      "details": {
+        "gameId": "F2",
+        "score": 100,
+        "durationMs": 25000
+      }
+    },
+    {
+      "name": "native golden F3: valid v1 metrics, saved 100, no pending timers",
+      "status": "passed",
+      "details": {
+        "gameId": "F3",
+        "score": 100,
+        "durationMs": 4800
+      }
+    },
+    {
+      "name": "completed daily plan, streak and lifetime count update from native games and survive reload",
+      "status": "passed"
+    },
+    {
+      "name": "real E2 no-input result supplies a legal zero-score PK comparison",
+      "status": "passed"
+    },
+    {
+      "name": "isolated test fixture: three distinct dates x 18 valid games, stats and portrait survive reload",
+      "status": "passed"
+    },
+    {
+      "name": "populated scores/radar: common overview/badges and scoring-consistent content",
+      "status": "passed"
+    },
+    {
+      "name": "populated scores/records: common overview/badges and scoring-consistent content",
+      "status": "passed"
+    },
+    {
+      "name": "populated scores/progress: common overview/badges and scoring-consistent content",
+      "status": "passed"
+    },
+    {
+      "name": "records: native 7/30/all chart filtering, native game select, show-more and result link",
+      "status": "passed",
+      "details": {
+        "ranges": {
+          "7": 1,
+          "30": 2,
+          "all": 3
+        },
+        "gameFilter": "E2",
+        "totalRows": 54
+      }
+    },
+    {
+      "name": "legacy /history still exposes real history rows and result links",
+      "status": "passed"
+    },
+    {
+      "name": "layout/screenshot home 1365px: no overflow, accessible controls, header retained",
+      "status": "passed"
+    },
+    {
+      "name": "layout/screenshot all 1365px: no overflow, accessible controls, header retained",
+      "status": "passed"
+    },
+    {
+      "name": "layout/screenshot radar 1365px: no overflow, accessible controls, header retained",
+      "status": "passed"
+    },
+    {
+      "name": "layout/screenshot records 1365px: no overflow, accessible controls, header retained",
+      "status": "passed"
+    },
+    {
+      "name": "layout/screenshot progress 1365px: no overflow, accessible controls, header retained",
+      "status": "passed"
+    },
+    {
+      "name": "layout/screenshot home 390px: no overflow, accessible controls, header retained",
+      "status": "passed"
+    },
+    {
+      "name": "layout/screenshot all 390px: no overflow, accessible controls, header retained",
+      "status": "passed"
+    },
+    {
+      "name": "layout/screenshot radar 390px: no overflow, accessible controls, header retained",
+      "status": "passed"
+    },
+    {
+      "name": "layout/screenshot records 390px: no overflow, accessible controls, header retained",
+      "status": "passed"
+    },
+    {
+      "name": "layout/screenshot progress 390px: no overflow, accessible controls, header retained",
+      "status": "passed"
+    },
+    {
+      "name": "layout/screenshot home 320px: no overflow, accessible controls, header retained",
+      "status": "passed"
+    },
+    {
+      "name": "layout/screenshot all 320px: no overflow, accessible controls, header retained",
+      "status": "passed"
+    },
+    {
+      "name": "layout/screenshot radar 320px: no overflow, accessible controls, header retained",
+      "status": "passed"
+    },
+    {
+      "name": "layout/screenshot records 320px: no overflow, accessible controls, header retained",
+      "status": "passed"
+    },
+    {
+      "name": "layout/screenshot progress 320px: no overflow, accessible controls, header retained",
+      "status": "passed"
+    },
+    {
+      "name": "final route cleanup leaves no scheduled application timers",
+      "status": "passed"
+    },
+    {
+      "name": "no uncaught/console errors, missing resources or external requests",
+      "status": "passed"
+    }
+  ],
+  "widths": [
+    {
+      "page": "home",
+      "device": "desktop",
+      "requestedWidth": 1365,
+      "width": 1365,
+      "scrollWidth": 1350,
+      "bodyWidth": 1350,
+      "height": 960,
+      "status": "passed",
+      "controls": [
+        {
+          "selector": ".start-button",
+          "left": 1009.7291870117188,
+          "right": 1131.0000228881836,
+          "top": 412.91668701171875,
+          "bottom": 464.91668701171875,
+          "width": 121.27083587646484,
+          "height": 52,
+          "navTop": 878,
+          "hit": true,
+          "viewport": 1365
+        },
+        {
+          "selector": ".quick-card[href=\"#/favorites\"]",
+          "left": 684,
+          "right": 1163,
+          "top": 374.15625,
+          "bottom": 504.15625,
+          "width": 479,
+          "height": 130,
+          "navTop": 878,
+          "hit": true,
+          "viewport": 1365
+        },
+        {
+          "selector": ".plan-card:last-child",
+          "left": 684,
+          "right": 1163,
+          "top": 570.21875,
+          "bottom": 715.21875,
+          "width": 479,
+          "height": 145,
+          "navTop": 878,
+          "hit": true,
+          "viewport": 1365
+        }
+      ]
+    },
+    {
+      "page": "all",
+      "device": "desktop",
+      "requestedWidth": 1365,
+      "width": 1365,
+      "scrollWidth": 1350,
+      "bodyWidth": 1350,
+      "height": 960,
+      "status": "passed",
+      "controls": [
+        {
+          "selector": ".category-tabs a:last-child",
+          "left": 922,
+          "right": 1157,
+          "top": 276.7395935058594,
+          "bottom": 322.7395935058594,
+          "width": 235,
+          "height": 46,
+          "navTop": 878,
+          "hit": true,
+          "viewport": 1365
+        },
+        {
+          "selector": ".catalog-section:last-child .catalog-card:last-child .game-cover",
+          "left": 869,
+          "right": 1146.3333435058594,
+          "top": 431.9895935058594,
+          "bottom": 610.9062652587891,
+          "width": 277.3333435058594,
+          "height": 178.9166717529297,
+          "navTop": 878,
+          "hit": true,
+          "viewport": 1365
+        },
+        {
+          "selector": ".catalog-section:last-child .catalog-card:last-child .favorite-button",
+          "left": 1109.3333740234375,
+          "right": 1153.3333740234375,
+          "top": 424.9895935058594,
+          "bottom": 468.9895935058594,
+          "width": 44,
+          "height": 44,
+          "navTop": 878,
+          "hit": true,
+          "viewport": 1365
+        },
+        {
+          "selector": ".catalog-section:last-child .catalog-card:last-child .game-name",
+          "left": 869,
+          "right": 1146.3333435058594,
+          "top": 618.90625,
+          "bottom": 662.90625,
+          "width": 277.3333435058594,
+          "height": 44,
+          "navTop": 878,
+          "hit": true,
+          "viewport": 1365
+        }
+      ],
+      "grids": [
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 187,
+              "y": 406.13543701171875,
+              "width": 310.66668701171875
+            },
+            {
+              "x": 519.6666870117188,
+              "y": 406.13543701171875,
+              "width": 310.66668701171875
+            },
+            {
+              "x": 852.3333740234375,
+              "y": 406.13543701171875,
+              "width": 310.66668701171875
+            }
+          ]
+        },
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 187,
+              "y": 783.5729370117188,
+              "width": 310.66668701171875
+            },
+            {
+              "x": 519.6666870117188,
+              "y": 783.5729370117188,
+              "width": 310.66668701171875
+            },
+            {
+              "x": 852.3333740234375,
+              "y": 783.5729370117188,
+              "width": 310.66668701171875
+            }
+          ]
+        },
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 187,
+              "y": 1161.010498046875,
+              "width": 310.66668701171875
+            },
+            {
+              "x": 519.6666870117188,
+              "y": 1161.010498046875,
+              "width": 310.66668701171875
+            },
+            {
+              "x": 852.3333740234375,
+              "y": 1161.010498046875,
+              "width": 310.66668701171875
+            }
+          ]
+        },
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 187,
+              "y": 1538.447998046875,
+              "width": 310.66668701171875
+            },
+            {
+              "x": 519.6666870117188,
+              "y": 1538.447998046875,
+              "width": 310.66668701171875
+            },
+            {
+              "x": 852.3333740234375,
+              "y": 1538.447998046875,
+              "width": 310.66668701171875
+            }
+          ]
+        },
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 187,
+              "y": 1915.885498046875,
+              "width": 310.66668701171875
+            },
+            {
+              "x": 519.6666870117188,
+              "y": 1915.885498046875,
+              "width": 310.66668701171875
+            },
+            {
+              "x": 852.3333740234375,
+              "y": 1915.885498046875,
+              "width": 310.66668701171875
+            }
+          ]
+        },
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 187,
+              "y": 2293.322998046875,
+              "width": 310.66668701171875
+            },
+            {
+              "x": 519.6666870117188,
+              "y": 2293.322998046875,
+              "width": 310.66668701171875
+            },
+            {
+              "x": 852.3333740234375,
+              "y": 2293.322998046875,
+              "width": 310.66668701171875
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "radar",
+      "device": "desktop",
+      "requestedWidth": 1365,
+      "width": 1365,
+      "scrollWidth": 1350,
+      "bodyWidth": 1350,
+      "height": 960,
+      "status": "passed",
+      "controls": [
+        {
+          "selector": ".badge-strip button:last-child",
+          "left": 1049,
+          "right": 1159,
+          "top": 334.6458435058594,
+          "bottom": 460.7708435058594,
+          "width": 110,
+          "height": 126.125,
+          "navTop": 878,
+          "hit": true,
+          "viewport": 1365
+        },
+        {
+          "selector": ".score-tabs a:last-child",
+          "left": 841,
+          "right": 1157,
+          "top": 416.10418701171875,
+          "bottom": 462.10418701171875,
+          "width": 316,
+          "height": 46,
+          "navTop": 878,
+          "hit": true,
+          "viewport": 1365
+        },
+        {
+          "selector": ".pk-button",
+          "left": 926.3333740234375,
+          "right": 1112.3333740234375,
+          "top": 382.7395935058594,
+          "bottom": 428.7395935058594,
+          "width": 186,
+          "height": 46,
+          "navTop": 878,
+          "hit": true,
+          "viewport": 1365
+        }
+      ]
+    },
+    {
+      "page": "records",
+      "device": "desktop",
+      "requestedWidth": 1365,
+      "width": 1365,
+      "scrollWidth": 1350,
+      "bodyWidth": 1350,
+      "height": 960,
+      "status": "passed",
+      "controls": [
+        {
+          "selector": ".chart-range button:last-child",
+          "left": 1077,
+          "right": 1134.3333358764648,
+          "top": 376.09375,
+          "bottom": 420.09375,
+          "width": 57.333335876464844,
+          "height": 44,
+          "navTop": 878,
+          "hit": true,
+          "viewport": 1365
+        },
+        {
+          "selector": ".history-select",
+          "left": 934.3333740234375,
+          "right": 1134.3333740234375,
+          "top": 376.0625,
+          "bottom": 420.0625,
+          "width": 200,
+          "height": 44,
+          "navTop": 878,
+          "hit": true,
+          "viewport": 1365
+        },
+        {
+          "selector": ".history-content .history-row:last-child",
+          "left": 215.6666717529297,
+          "right": 1134.3333587646484,
+          "top": 604.7291870117188,
+          "bottom": 668.7291870117188,
+          "width": 918.6666870117188,
+          "height": 64,
+          "navTop": 878,
+          "hit": true,
+          "viewport": 1365
+        },
+        {
+          "selector": ".history-content > button",
+          "left": 215.6666717529297,
+          "right": 313.00000762939453,
+          "top": 668.7291870117188,
+          "bottom": 714.7291870117188,
+          "width": 97.33333587646484,
+          "height": 46,
+          "navTop": 878,
+          "hit": true,
+          "viewport": 1365
+        }
+      ]
+    },
+    {
+      "page": "progress",
+      "device": "desktop",
+      "requestedWidth": 1365,
+      "width": 1365,
+      "scrollWidth": 1350,
+      "bodyWidth": 1350,
+      "height": 960,
+      "status": "passed",
+      "controls": [
+        {
+          "selector": ".score-tabs a:last-child",
+          "left": 841,
+          "right": 1157,
+          "top": 416.10418701171875,
+          "bottom": 462.10418701171875,
+          "width": 316,
+          "height": 46,
+          "navTop": 878,
+          "hit": true,
+          "viewport": 1365
+        },
+        {
+          "selector": ".progress-item:last-child .progress-track",
+          "left": 215.6666717529297,
+          "right": 1134.3333587646484,
+          "top": 644.2396240234375,
+          "bottom": 653.2396240234375,
+          "width": 918.6666870117188,
+          "height": 9,
+          "navTop": 878,
+          "hit": true,
+          "viewport": 1365
+        }
+      ]
+    },
+    {
+      "page": "home",
+      "device": "mobile",
+      "requestedWidth": 390,
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyWidth": 390,
+      "height": 844,
+      "status": "passed",
+      "controls": [
+        {
+          "selector": ".start-button",
+          "left": 30,
+          "right": 360,
+          "top": 357.72918701171875,
+          "bottom": 409.72918701171875,
+          "width": 330,
+          "height": 52,
+          "navTop": 768,
+          "hit": true,
+          "viewport": 390
+        },
+        {
+          "selector": ".quick-card[href=\"#/favorites\"]",
+          "left": 200,
+          "right": 378,
+          "top": 298.0833435058594,
+          "bottom": 470.0833435058594,
+          "width": 178,
+          "height": 172,
+          "navTop": 768,
+          "hit": true,
+          "viewport": 390
+        },
+        {
+          "selector": ".plan-card:last-child",
+          "left": 12,
+          "right": 378,
+          "top": 478.28125,
+          "bottom": 606.28125,
+          "width": 366,
+          "height": 128,
+          "navTop": 768,
+          "hit": true,
+          "viewport": 390
+        }
+      ]
+    },
+    {
+      "page": "all",
+      "device": "mobile",
+      "requestedWidth": 390,
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyWidth": 390,
+      "height": 844,
+      "status": "passed",
+      "controls": [
+        {
+          "selector": ".category-tabs a:last-child",
+          "left": 286.25,
+          "right": 373,
+          "top": 225.5416717529297,
+          "bottom": 269.5416717529297,
+          "width": 86.75,
+          "height": 44,
+          "navTop": 768,
+          "hit": true,
+          "viewport": 390
+        },
+        {
+          "selector": ".catalog-section:last-child .catalog-card:last-child .game-cover",
+          "left": 268,
+          "right": 371.33333587646484,
+          "top": 424.72918701171875,
+          "bottom": 528.0625228881836,
+          "width": 103.33333587646484,
+          "height": 103.33333587646484,
+          "navTop": 768,
+          "hit": true,
+          "viewport": 390
+        },
+        {
+          "selector": ".catalog-section:last-child .catalog-card:last-child .favorite-button",
+          "left": 330.3333435058594,
+          "right": 374.3333435058594,
+          "top": 421.72918701171875,
+          "bottom": 465.72918701171875,
+          "width": 44,
+          "height": 44,
+          "navTop": 768,
+          "hit": true,
+          "viewport": 390
+        },
+        {
+          "selector": ".catalog-section:last-child .catalog-card:last-child .game-name",
+          "left": 268,
+          "right": 371.33333587646484,
+          "top": 531.0625,
+          "bottom": 575.0625,
+          "width": 103.33333587646484,
+          "height": 44,
+          "navTop": 768,
+          "hit": true,
+          "viewport": 390
+        }
+      ],
+      "grids": [
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 12,
+              "y": 340.7395935058594,
+              "width": 116.66667175292969
+            },
+            {
+              "x": 136.6666717529297,
+              "y": 340.7395935058594,
+              "width": 116.66667175292969
+            },
+            {
+              "x": 261.3333435058594,
+              "y": 340.7395935058594,
+              "width": 116.66667175292969
+            }
+          ]
+        },
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 12,
+              "y": 598.6041870117188,
+              "width": 116.66667175292969
+            },
+            {
+              "x": 136.6666717529297,
+              "y": 598.6041870117188,
+              "width": 116.66667175292969
+            },
+            {
+              "x": 261.3333435058594,
+              "y": 598.6041870117188,
+              "width": 116.66667175292969
+            }
+          ]
+        },
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 12,
+              "y": 856.46875,
+              "width": 116.66667175292969
+            },
+            {
+              "x": 136.6666717529297,
+              "y": 856.46875,
+              "width": 116.66667175292969
+            },
+            {
+              "x": 261.3333435058594,
+              "y": 856.46875,
+              "width": 116.66667175292969
+            }
+          ]
+        },
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 12,
+              "y": 1114.3333740234375,
+              "width": 116.66667175292969
+            },
+            {
+              "x": 136.6666717529297,
+              "y": 1114.3333740234375,
+              "width": 116.66667175292969
+            },
+            {
+              "x": 261.3333435058594,
+              "y": 1114.3333740234375,
+              "width": 116.66667175292969
+            }
+          ]
+        },
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 12,
+              "y": 1372.197998046875,
+              "width": 116.66667175292969
+            },
+            {
+              "x": 136.6666717529297,
+              "y": 1372.197998046875,
+              "width": 116.66667175292969
+            },
+            {
+              "x": 261.3333435058594,
+              "y": 1372.197998046875,
+              "width": 116.66667175292969
+            }
+          ]
+        },
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 12,
+              "y": 1630.0625,
+              "width": 116.66667175292969
+            },
+            {
+              "x": 136.6666717529297,
+              "y": 1630.0625,
+              "width": 116.66667175292969
+            },
+            {
+              "x": 261.3333435058594,
+              "y": 1630.0625,
+              "width": 116.66667175292969
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "radar",
+      "device": "mobile",
+      "requestedWidth": 390,
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyWidth": 390,
+      "height": 844,
+      "status": "passed",
+      "controls": [
+        {
+          "selector": ".badge-strip button:last-child",
+          "left": 274,
+          "right": 374,
+          "top": 298.7395935058594,
+          "bottom": 392.7395935058594,
+          "width": 100,
+          "height": 94,
+          "navTop": 768,
+          "hit": true,
+          "viewport": 390
+        },
+        {
+          "selector": ".score-tabs a:last-child",
+          "left": 256.3333435058594,
+          "right": 373.00001525878906,
+          "top": 361.7395935058594,
+          "bottom": 405.7395935058594,
+          "width": 116.66667175292969,
+          "height": 44,
+          "navTop": 768,
+          "hit": true,
+          "viewport": 390
+        },
+        {
+          "selector": ".pk-button",
+          "left": 46.66666793823242,
+          "right": 343.3333549499512,
+          "top": 322.9375,
+          "bottom": 368.9375,
+          "width": 296.66668701171875,
+          "height": 46,
+          "navTop": 768,
+          "hit": true,
+          "viewport": 390
+        }
+      ]
+    },
+    {
+      "page": "records",
+      "device": "mobile",
+      "requestedWidth": 390,
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyWidth": 390,
+      "height": 844,
+      "status": "passed",
+      "controls": [
+        {
+          "selector": ".chart-range button:last-child",
+          "left": 170.2916717529297,
+          "right": 219.62500762939453,
+          "top": 323.8645935058594,
+          "bottom": 367.8645935058594,
+          "width": 49.333335876464844,
+          "height": 44,
+          "navTop": 768,
+          "hit": true,
+          "viewport": 390
+        },
+        {
+          "selector": ".history-select",
+          "left": 26.666667938232422,
+          "right": 226.66666793823242,
+          "top": 323.8333435058594,
+          "bottom": 367.8333435058594,
+          "width": 200,
+          "height": 44,
+          "navTop": 768,
+          "hit": true,
+          "viewport": 390
+        },
+        {
+          "selector": ".history-content .history-row:last-child",
+          "left": 26.666667938232422,
+          "right": 363.3333549499512,
+          "top": 491.625,
+          "bottom": 569.5833358764648,
+          "width": 336.66668701171875,
+          "height": 77.95833587646484,
+          "navTop": 768,
+          "hit": true,
+          "viewport": 390
+        },
+        {
+          "selector": ".history-content > button",
+          "left": 26.666667938232422,
+          "right": 110.00000381469727,
+          "top": 569.5833740234375,
+          "bottom": 615.5833740234375,
+          "width": 83.33333587646484,
+          "height": 46,
+          "navTop": 768,
+          "hit": true,
+          "viewport": 390
+        }
+      ]
+    },
+    {
+      "page": "progress",
+      "device": "mobile",
+      "requestedWidth": 390,
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyWidth": 390,
+      "height": 844,
+      "status": "passed",
+      "controls": [
+        {
+          "selector": ".score-tabs a:last-child",
+          "left": 256.3333435058594,
+          "right": 373.00001525878906,
+          "top": 361.7395935058594,
+          "bottom": 405.7395935058594,
+          "width": 116.66667175292969,
+          "height": 44,
+          "navTop": 768,
+          "hit": true,
+          "viewport": 390
+        },
+        {
+          "selector": ".progress-item:last-child .progress-track",
+          "left": 26.666667938232422,
+          "right": 363.3333549499512,
+          "top": 522.875,
+          "bottom": 531.875,
+          "width": 336.66668701171875,
+          "height": 9,
+          "navTop": 768,
+          "hit": true,
+          "viewport": 390
+        }
+      ]
+    },
+    {
+      "page": "home",
+      "device": "mobile-320",
+      "requestedWidth": 320,
+      "width": 320,
+      "scrollWidth": 320,
+      "bodyWidth": 320,
+      "height": 800,
+      "status": "passed",
+      "controls": [
+        {
+          "selector": ".start-button",
+          "left": 30,
+          "right": 290,
+          "top": 335.9895935058594,
+          "bottom": 387.9895935058594,
+          "width": 260,
+          "height": 52,
+          "navTop": 724,
+          "hit": true,
+          "viewport": 320
+        },
+        {
+          "selector": ".quick-card[href=\"#/favorites\"]",
+          "left": 165,
+          "right": 308,
+          "top": 274.34375,
+          "bottom": 449.65625,
+          "width": 143,
+          "height": 175.3125,
+          "navTop": 724,
+          "hit": true,
+          "viewport": 320
+        },
+        {
+          "selector": ".plan-card:last-child",
+          "left": 12,
+          "right": 308,
+          "top": 432.47918701171875,
+          "bottom": 561.9375305175781,
+          "width": 296,
+          "height": 129.45834350585938,
+          "navTop": 724,
+          "hit": true,
+          "viewport": 320
+        }
+      ]
+    },
+    {
+      "page": "all",
+      "device": "mobile-320",
+      "requestedWidth": 320,
+      "width": 320,
+      "scrollWidth": 320,
+      "bodyWidth": 320,
+      "height": 800,
+      "status": "passed",
+      "controls": [
+        {
+          "selector": ".category-tabs a:last-child",
+          "left": 233.75,
+          "right": 303,
+          "top": 225.5416717529297,
+          "bottom": 269.5416717529297,
+          "width": 69.25,
+          "height": 44,
+          "navTop": 724,
+          "hit": true,
+          "viewport": 320
+        },
+        {
+          "selector": ".catalog-section:last-child .catalog-card:last-child .game-cover",
+          "left": 221.33334350585938,
+          "right": 301.3333435058594,
+          "top": 382.0625,
+          "bottom": 484.0625,
+          "width": 80,
+          "height": 102,
+          "navTop": 724,
+          "hit": true,
+          "viewport": 320
+        },
+        {
+          "selector": ".catalog-section:last-child .catalog-card:last-child .favorite-button",
+          "left": 260.3333435058594,
+          "right": 304.3333435058594,
+          "top": 379.0625,
+          "bottom": 423.0625,
+          "width": 44,
+          "height": 44,
+          "navTop": 724,
+          "hit": true,
+          "viewport": 320
+        },
+        {
+          "selector": ".catalog-section:last-child .catalog-card:last-child .game-name",
+          "left": 221.33334350585938,
+          "right": 301.3333435058594,
+          "top": 487.0625,
+          "bottom": 531.0625,
+          "width": 80,
+          "height": 44,
+          "navTop": 724,
+          "hit": true,
+          "viewport": 320
+        }
+      ],
+      "grids": [
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 12,
+              "y": 340.7395935058594,
+              "width": 93.33333587646484
+            },
+            {
+              "x": 113.33333587646484,
+              "y": 340.7395935058594,
+              "width": 93.33333587646484
+            },
+            {
+              "x": 214.6666717529297,
+              "y": 340.7395935058594,
+              "width": 93.33333587646484
+            }
+          ]
+        },
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 12,
+              "y": 597.2708740234375,
+              "width": 93.33333587646484
+            },
+            {
+              "x": 113.33333587646484,
+              "y": 597.2708740234375,
+              "width": 93.33333587646484
+            },
+            {
+              "x": 214.6666717529297,
+              "y": 597.2708740234375,
+              "width": 93.33333587646484
+            }
+          ]
+        },
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 12,
+              "y": 853.8021240234375,
+              "width": 93.33333587646484
+            },
+            {
+              "x": 113.33333587646484,
+              "y": 853.8021240234375,
+              "width": 93.33333587646484
+            },
+            {
+              "x": 214.6666717529297,
+              "y": 853.8021240234375,
+              "width": 93.33333587646484
+            }
+          ]
+        },
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 12,
+              "y": 1110.3333740234375,
+              "width": 93.33333587646484
+            },
+            {
+              "x": 113.33333587646484,
+              "y": 1110.3333740234375,
+              "width": 93.33333587646484
+            },
+            {
+              "x": 214.6666717529297,
+              "y": 1110.3333740234375,
+              "width": 93.33333587646484
+            }
+          ]
+        },
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 12,
+              "y": 1366.8646240234375,
+              "width": 93.33333587646484
+            },
+            {
+              "x": 113.33333587646484,
+              "y": 1366.8646240234375,
+              "width": 93.33333587646484
+            },
+            {
+              "x": 214.6666717529297,
+              "y": 1366.8646240234375,
+              "width": 93.33333587646484
+            }
+          ]
+        },
+        {
+          "columns": 3,
+          "cards": [
+            {
+              "x": 12,
+              "y": 1623.3958740234375,
+              "width": 93.33333587646484
+            },
+            {
+              "x": 113.33333587646484,
+              "y": 1623.3958740234375,
+              "width": 93.33333587646484
+            },
+            {
+              "x": 214.6666717529297,
+              "y": 1623.3958740234375,
+              "width": 93.33333587646484
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "radar",
+      "device": "mobile-320",
+      "requestedWidth": 320,
+      "width": 320,
+      "scrollWidth": 320,
+      "bodyWidth": 320,
+      "height": 800,
+      "status": "passed",
+      "controls": [
+        {
+          "selector": ".badge-strip button:last-child",
+          "left": 204,
+          "right": 304,
+          "top": 276.7395935058594,
+          "bottom": 370.7395935058594,
+          "width": 100,
+          "height": 94,
+          "navTop": 724,
+          "hit": true,
+          "viewport": 320
+        },
+        {
+          "selector": ".score-tabs a:last-child",
+          "left": 209.6666717529297,
+          "right": 303.00000762939453,
+          "top": 339.7395935058594,
+          "bottom": 383.7395935058594,
+          "width": 93.33333587646484,
+          "height": 44,
+          "navTop": 724,
+          "hit": true,
+          "viewport": 320
+        },
+        {
+          "selector": ".pk-button",
+          "left": 46.66666793823242,
+          "right": 273.3333396911621,
+          "top": 301.2708435058594,
+          "bottom": 347.2708435058594,
+          "width": 226.6666717529297,
+          "height": 46,
+          "navTop": 724,
+          "hit": true,
+          "viewport": 320
+        }
+      ]
+    },
+    {
+      "page": "records",
+      "device": "mobile-320",
+      "requestedWidth": 320,
+      "width": 320,
+      "scrollWidth": 320,
+      "bodyWidth": 320,
+      "height": 800,
+      "status": "passed",
+      "controls": [
+        {
+          "selector": ".chart-range button:last-child",
+          "left": 170.2916717529297,
+          "right": 219.62500762939453,
+          "top": 301.8645935058594,
+          "bottom": 345.8645935058594,
+          "width": 49.333335876464844,
+          "height": 44,
+          "navTop": 724,
+          "hit": true,
+          "viewport": 320
+        },
+        {
+          "selector": ".history-select",
+          "left": 26.666667938232422,
+          "right": 226.66666793823242,
+          "top": 302.2083435058594,
+          "bottom": 346.2083435058594,
+          "width": 200,
+          "height": 44,
+          "navTop": 724,
+          "hit": true,
+          "viewport": 320
+        },
+        {
+          "selector": ".history-content .history-row:last-child",
+          "left": 26.666667938232422,
+          "right": 293.3333549499512,
+          "top": 447.3333435058594,
+          "bottom": 525.2916793823242,
+          "width": 266.66668701171875,
+          "height": 77.95833587646484,
+          "navTop": 724,
+          "hit": true,
+          "viewport": 320
+        },
+        {
+          "selector": ".history-content > button",
+          "left": 26.666667938232422,
+          "right": 110.00000381469727,
+          "top": 525.2916870117188,
+          "bottom": 571.2916870117188,
+          "width": 83.33333587646484,
+          "height": 46,
+          "navTop": 724,
+          "hit": true,
+          "viewport": 320
+        }
+      ]
+    },
+    {
+      "page": "progress",
+      "device": "mobile-320",
+      "requestedWidth": 320,
+      "width": 320,
+      "scrollWidth": 320,
+      "bodyWidth": 320,
+      "height": 800,
+      "status": "passed",
+      "controls": [
+        {
+          "selector": ".score-tabs a:last-child",
+          "left": 209.6666717529297,
+          "right": 303.00000762939453,
+          "top": 339.7395935058594,
+          "bottom": 383.7395935058594,
+          "width": 93.33333587646484,
+          "height": 44,
+          "navTop": 724,
+          "hit": true,
+          "viewport": 320
+        },
+        {
+          "selector": ".progress-item:last-child .progress-track",
+          "left": 26.666667938232422,
+          "right": 293.3333549499512,
+          "top": 478.875,
+          "bottom": 487.875,
+          "width": 266.66668701171875,
+          "height": 9,
+          "navTop": 724,
+          "hit": true,
+          "viewport": 320
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "page": "home",
+      "device": "desktop",
+      "width": 1365,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-home-desktop.png",
+      "scrollY": 0,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "all",
+      "device": "desktop",
+      "width": 1365,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-all-desktop.png",
+      "scrollY": 0,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "radar",
+      "device": "desktop",
+      "width": 1365,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-radar-desktop.png",
+      "scrollY": 0,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "radar",
+      "device": "desktop",
+      "width": 1365,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-radar-desktop-detail.png",
+      "scrollY": 728,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "records",
+      "device": "desktop",
+      "width": 1365,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-records-desktop.png",
+      "scrollY": 0,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "records",
+      "device": "desktop",
+      "width": 1365,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-records-desktop-detail.png",
+      "scrollY": 731.3333129882812,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "progress",
+      "device": "desktop",
+      "width": 1365,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-progress-desktop.png",
+      "scrollY": 0,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "progress",
+      "device": "desktop",
+      "width": 1365,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-progress-desktop-detail.png",
+      "scrollY": 638,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "home",
+      "device": "mobile",
+      "width": 390,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-home-mobile.png",
+      "scrollY": 0,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "all",
+      "device": "mobile",
+      "width": 390,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-all-mobile.png",
+      "scrollY": 0,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "radar",
+      "device": "mobile",
+      "width": 390,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-radar-mobile.png",
+      "scrollY": 0,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "radar",
+      "device": "mobile",
+      "width": 390,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-radar-mobile-detail.png",
+      "scrollY": 546.6666870117188,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "records",
+      "device": "mobile",
+      "width": 390,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-records-mobile.png",
+      "scrollY": 0,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "records",
+      "device": "mobile",
+      "width": 390,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-records-mobile-detail.png",
+      "scrollY": 546.6666870117188,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "progress",
+      "device": "mobile",
+      "width": 390,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-progress-mobile.png",
+      "scrollY": 0,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "progress",
+      "device": "mobile",
+      "width": 390,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-progress-mobile-detail.png",
+      "scrollY": 546.6666870117188,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "home",
+      "device": "mobile-320",
+      "width": 320,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-home-mobile-320.png",
+      "scrollY": 0,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "all",
+      "device": "mobile-320",
+      "width": 320,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-all-mobile-320.png",
+      "scrollY": 0,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "radar",
+      "device": "mobile-320",
+      "width": 320,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-radar-mobile-320.png",
+      "scrollY": 0,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "radar",
+      "device": "mobile-320",
+      "width": 320,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-radar-mobile-320-detail.png",
+      "scrollY": 546.6666870117188,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "records",
+      "device": "mobile-320",
+      "width": 320,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-records-mobile-320.png",
+      "scrollY": 0,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "records",
+      "device": "mobile-320",
+      "width": 320,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-records-mobile-320-detail.png",
+      "scrollY": 546.6666870117188,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "progress",
+      "device": "mobile-320",
+      "width": 320,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-progress-mobile-320.png",
+      "scrollY": 0,
+      "fixture": "dated native-play copies (test data)"
+    },
+    {
+      "page": "progress",
+      "device": "mobile-320",
+      "width": 320,
+      "path": "D:\\桌面\\-MindOrbit\\tests\\screenshots\\dashboard-progress-mobile-320-detail.png",
+      "scrollY": 546.6666870117188,
+      "fixture": "dated native-play copies (test data)"
+    }
+  ],
+  "goldenRecords": [
+    {
+      "sessionId": "d8a3b6b51c9e3cf6e6ee5d206de53e9a",
+      "gameId": "A1",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "maxCorrectCells": 8,
+        "correctRounds": 6,
+        "errors": 0,
+        "livesRemaining": 3,
+        "trials": [
+          {
+            "cells": [
+              7,
+              10,
+              14
+            ],
+            "count": 3,
+            "selected": [
+              7,
+              10,
+              14
+            ],
+            "correct": true,
+            "outcome": "correct",
+            "rtMs": 0
+          },
+          {
+            "cells": [
+              1,
+              3,
+              9,
+              10
+            ],
+            "count": 4,
+            "selected": [
+              1,
+              3,
+              9,
+              10
+            ],
+            "correct": true,
+            "outcome": "correct",
+            "rtMs": 0
+          },
+          {
+            "cells": [
+              0,
+              3,
+              4,
+              8,
+              10
+            ],
+            "count": 5,
+            "selected": [
+              0,
+              3,
+              4,
+              8,
+              10
+            ],
+            "correct": true,
+            "outcome": "correct",
+            "rtMs": 0
+          },
+          {
+            "cells": [
+              0,
+              7,
+              8,
+              9,
+              10,
+              12
+            ],
+            "count": 6,
+            "selected": [
+              0,
+              7,
+              8,
+              9,
+              10,
+              12
+            ],
+            "correct": true,
+            "outcome": "correct",
+            "rtMs": 0
+          },
+          {
+            "cells": [
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              14
+            ],
+            "count": 7,
+            "selected": [
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              14
+            ],
+            "correct": true,
+            "outcome": "correct",
+            "rtMs": 0
+          },
+          {
+            "cells": [
+              0,
+              4,
+              5,
+              8,
+              10,
+              11,
+              12,
+              13
+            ],
+            "count": 8,
+            "selected": [
+              0,
+              4,
+              5,
+              8,
+              10,
+              11,
+              12,
+              13
+            ],
+            "correct": true,
+            "outcome": "correct",
+            "rtMs": 0
+          }
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:10.625Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 12000,
+      "inputMode": "pointer",
+      "rngSeed": "b7beeebf99effc788d7cfd46cee3dffe"
+    },
+    {
+      "sessionId": "2e8a2ed43b5762ceb3a420c31ffdf1c0",
+      "gameId": "A2",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "maxLength": 9,
+        "errors": 0,
+        "trials": [
+          {
+            "length": 3,
+            "sequence": "580",
+            "answer": "580",
+            "correct": true,
+            "outcome": "correct",
+            "rtMs": 0
+          },
+          {
+            "length": 4,
+            "sequence": "6998",
+            "answer": "6998",
+            "correct": true,
+            "outcome": "correct",
+            "rtMs": 0
+          },
+          {
+            "length": 5,
+            "sequence": "48003",
+            "answer": "48003",
+            "correct": true,
+            "outcome": "correct",
+            "rtMs": 0
+          },
+          {
+            "length": 6,
+            "sequence": "727956",
+            "answer": "727956",
+            "correct": true,
+            "outcome": "correct",
+            "rtMs": 0
+          },
+          {
+            "length": 7,
+            "sequence": "9738963",
+            "answer": "9738963",
+            "correct": true,
+            "outcome": "correct",
+            "rtMs": 0
+          },
+          {
+            "length": 8,
+            "sequence": "79781544",
+            "answer": "79781544",
+            "correct": true,
+            "outcome": "correct",
+            "rtMs": 0
+          },
+          {
+            "length": 9,
+            "sequence": "064146371",
+            "answer": "064146371",
+            "correct": true,
+            "outcome": "correct",
+            "rtMs": 0
+          }
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:10.751Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 37100,
+      "inputMode": "keyboard",
+      "rngSeed": "24ffa530b56397eaca05a03ef95a2cce"
+    },
+    {
+      "sessionId": "03399e74deb5c21ec0dc651ae8ca9b46",
+      "gameId": "A3",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "matchedPairs": 8,
+        "moves": 8,
+        "durationMs": 0,
+        "layout": [
+          "B",
+          "C",
+          "■",
+          "■",
+          "▲",
+          "●",
+          "◆",
+          "B",
+          "＋",
+          "A",
+          "▲",
+          "C",
+          "A",
+          "◆",
+          "＋",
+          "●"
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:10.820Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 0,
+      "inputMode": "pointer",
+      "rngSeed": "726b0462bda56cbde9fdd85aee22f0d7"
+    },
+    {
+      "sessionId": "76c7e0ab59a5f1d2d598a4e53a292ddc",
+      "gameId": "B1",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "correct": 10,
+        "missed": 0,
+        "meanCorrectMs": 100,
+        "trials": [
+          {
+            "id": "rotation-13",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "不同：右图是左图左右镜像后再顺时针旋转 270°；单靠平面旋转不能重合。",
+            "stimulus": {
+              "baseId": "rotation-13",
+              "left": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  2
+                ]
+              ],
+              "right": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  2,
+                  2
+                ]
+              ],
+              "turns": 3,
+              "mirrored": true,
+              "options": [
+                "相同",
+                "不同"
+              ]
+            }
+          },
+          {
+            "id": "rotation-6",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "相同：左图顺时针旋转 270° 可与右图重合。",
+            "stimulus": {
+              "baseId": "rotation-6",
+              "left": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1
+                ],
+                [
+                  2,
+                  2
+                ]
+              ],
+              "right": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ]
+              ],
+              "turns": 3,
+              "mirrored": false,
+              "options": [
+                "相同",
+                "不同"
+              ]
+            }
+          },
+          {
+            "id": "rotation-2",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "不同：右图是左图左右镜像后再顺时针旋转 180°；单靠平面旋转不能重合。",
+            "stimulus": {
+              "baseId": "rotation-2",
+              "left": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ]
+              ],
+              "right": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  1,
+                  2
+                ]
+              ],
+              "turns": 2,
+              "mirrored": true,
+              "options": [
+                "不同",
+                "相同"
+              ]
+            }
+          },
+          {
+            "id": "rotation-1",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "不同：右图是左图左右镜像后再顺时针旋转 90°；单靠平面旋转不能重合。",
+            "stimulus": {
+              "baseId": "rotation-1",
+              "left": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ]
+              ],
+              "right": [
+                [
+                  2,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ]
+              ],
+              "turns": 1,
+              "mirrored": true,
+              "options": [
+                "不同",
+                "相同"
+              ]
+            }
+          },
+          {
+            "id": "rotation-3",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "相同：左图顺时针旋转 90° 可与右图重合。",
+            "stimulus": {
+              "baseId": "rotation-3",
+              "left": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ]
+              ],
+              "right": [
+                [
+                  2,
+                  0
+                ],
+                [
+                  3,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1
+                ]
+              ],
+              "turns": 1,
+              "mirrored": false,
+              "options": [
+                "不同",
+                "相同"
+              ]
+            }
+          },
+          {
+            "id": "rotation-4",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "相同：左图顺时针旋转 180° 可与右图重合。",
+            "stimulus": {
+              "baseId": "rotation-4",
+              "left": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  0
+                ],
+                [
+                  3,
+                  0
+                ],
+                [
+                  3,
+                  1
+                ]
+              ],
+              "right": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1
+                ],
+                [
+                  3,
+                  1
+                ]
+              ],
+              "turns": 2,
+              "mirrored": false,
+              "options": [
+                "相同",
+                "不同"
+              ]
+            }
+          },
+          {
+            "id": "rotation-12",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "不同：右图是左图左右镜像后再顺时针旋转 270°；单靠平面旋转不能重合。",
+            "stimulus": {
+              "baseId": "rotation-12",
+              "left": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ]
+              ],
+              "right": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1
+                ],
+                [
+                  3,
+                  1
+                ],
+                [
+                  0,
+                  2
+                ]
+              ],
+              "turns": 3,
+              "mirrored": true,
+              "options": [
+                "不同",
+                "相同"
+              ]
+            }
+          },
+          {
+            "id": "rotation-14",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "不同：右图是左图左右镜像后再顺时针旋转 270°；单靠平面旋转不能重合。",
+            "stimulus": {
+              "baseId": "rotation-14",
+              "left": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1
+                ],
+                [
+                  3,
+                  1
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  2
+                ]
+              ],
+              "right": [
+                [
+                  2,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ]
+              ],
+              "turns": 3,
+              "mirrored": true,
+              "options": [
+                "不同",
+                "相同"
+              ]
+            }
+          },
+          {
+            "id": "rotation-11",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "相同：左图顺时针旋转 180° 可与右图重合。",
+            "stimulus": {
+              "baseId": "rotation-11",
+              "left": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  1,
+                  2
+                ]
+              ],
+              "right": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  2
+                ]
+              ],
+              "turns": 2,
+              "mirrored": false,
+              "options": [
+                "不同",
+                "相同"
+              ]
+            }
+          },
+          {
+            "id": "rotation-5",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "相同：左图顺时针旋转 270° 可与右图重合。",
+            "stimulus": {
+              "baseId": "rotation-5",
+              "left": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  3
+                ]
+              ],
+              "right": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1
+                ],
+                [
+                  3,
+                  1
+                ]
+              ],
+              "turns": 3,
+              "mirrored": false,
+              "options": [
+                "不同",
+                "相同"
+              ]
+            }
+          }
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:10.893Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 6000,
+      "inputMode": "pointer",
+      "rngSeed": "faa8f6bc0d137a4df4119bc55ae431dd"
+    },
+    {
+      "sessionId": "44e18855daeeb47be8af56f5200cf5b7",
+      "gameId": "B2",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "correct": 8,
+        "missed": 0,
+        "meanCorrectMs": 100,
+        "trials": [
+          {
+            "id": "completion-crown-low",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "答案为选项 1（皇冠形）。三个高低错落的冠尖和下方平底；遮去的是 25% 的轮廓长度。",
+            "stimulus": {
+              "id": "completion-crown-low",
+              "baseId": "crown",
+              "level": "low",
+              "hiddenPercent": 25,
+              "dash": [
+                18,
+                8,
+                20,
+                9,
+                37,
+                8
+              ],
+              "offset": 10,
+              "options": [
+                "crown",
+                "triangle",
+                "diamond",
+                "arrow"
+              ],
+              "feature": "三个高低错落的冠尖和下方平底"
+            }
+          },
+          {
+            "id": "completion-star-low",
+            "answer": 3,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "答案为选项 4（五角星形）。交替出现的五个外尖角和五个内凹角；遮去的是 25% 的轮廓长度。",
+            "stimulus": {
+              "id": "completion-star-low",
+              "baseId": "star",
+              "level": "low",
+              "hiddenPercent": 25,
+              "dash": [
+                18,
+                8,
+                20,
+                9,
+                37,
+                8
+              ],
+              "offset": 1,
+              "options": [
+                "key",
+                "hexagon",
+                "house",
+                "star"
+              ],
+              "feature": "交替出现的五个外尖角和五个内凹角"
+            }
+          },
+          {
+            "id": "completion-fish-low",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "答案为选项 1（鱼形）。左侧收腰鱼尾与右侧尖头鱼身；遮去的是 25% 的轮廓长度。",
+            "stimulus": {
+              "id": "completion-fish-low",
+              "baseId": "fish",
+              "level": "low",
+              "hiddenPercent": 25,
+              "dash": [
+                18,
+                8,
+                20,
+                9,
+                37,
+                8
+              ],
+              "offset": 9,
+              "options": [
+                "fish",
+                "house",
+                "cross",
+                "boat"
+              ],
+              "feature": "左侧收腰鱼尾与右侧尖头鱼身"
+            }
+          },
+          {
+            "id": "completion-arrow-mid",
+            "answer": 3,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "答案为选项 4（右箭头形）。右侧尖箭头和左侧窄矩形箭杆；遮去的是 35% 的轮廓长度。",
+            "stimulus": {
+              "id": "completion-arrow-mid",
+              "baseId": "arrow",
+              "level": "mid",
+              "hiddenPercent": 35,
+              "dash": [
+                15,
+                12,
+                19,
+                11,
+                31,
+                12
+              ],
+              "offset": 7,
+              "options": [
+                "boat",
+                "hexagon",
+                "crown",
+                "arrow"
+              ],
+              "feature": "右侧尖箭头和左侧窄矩形箭杆"
+            }
+          },
+          {
+            "id": "completion-house-mid",
+            "answer": 3,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "答案为选项 4（房屋形）。上方尖屋顶、竖直墙面和平底；遮去的是 35% 的轮廓长度。",
+            "stimulus": {
+              "id": "completion-house-mid",
+              "baseId": "house",
+              "level": "mid",
+              "hiddenPercent": 35,
+              "dash": [
+                15,
+                12,
+                19,
+                11,
+                31,
+                12
+              ],
+              "offset": 3,
+              "options": [
+                "diamond",
+                "bolt",
+                "star",
+                "house"
+              ],
+              "feature": "上方尖屋顶、竖直墙面和平底"
+            }
+          },
+          {
+            "id": "completion-bolt-mid",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "答案为选项 1（闪电形）。错开的两段斜向尖角与短水平折返；遮去的是 35% 的轮廓长度。",
+            "stimulus": {
+              "id": "completion-bolt-mid",
+              "baseId": "bolt",
+              "level": "mid",
+              "hiddenPercent": 35,
+              "dash": [
+                15,
+                12,
+                19,
+                11,
+                31,
+                12
+              ],
+              "offset": 6,
+              "options": [
+                "bolt",
+                "cross",
+                "hexagon",
+                "house"
+              ],
+              "feature": "错开的两段斜向尖角与短水平折返"
+            }
+          },
+          {
+            "id": "completion-diamond-high",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "答案为选项 1（菱形）。四条斜边构成上下左右四个尖角；遮去的是 45% 的轮廓长度。",
+            "stimulus": {
+              "id": "completion-diamond-high",
+              "baseId": "diamond",
+              "level": "high",
+              "hiddenPercent": 45,
+              "dash": [
+                12,
+                15,
+                16,
+                15,
+                27,
+                15
+              ],
+              "offset": 4,
+              "options": [
+                "diamond",
+                "boat",
+                "house",
+                "cross"
+              ],
+              "feature": "四条斜边构成上下左右四个尖角"
+            }
+          },
+          {
+            "id": "completion-cross-high",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "答案为选项 2（十字形）。四个伸出臂和直角内凹处；遮去的是 45% 的轮廓长度。",
+            "stimulus": {
+              "id": "completion-cross-high",
+              "baseId": "cross",
+              "level": "high",
+              "hiddenPercent": 45,
+              "dash": [
+                12,
+                15,
+                16,
+                15,
+                27,
+                15
+              ],
+              "offset": 2,
+              "options": [
+                "diamond",
+                "cross",
+                "boat",
+                "triangle"
+              ],
+              "feature": "四个伸出臂和直角内凹处"
+            }
+          }
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:10.971Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 4800,
+      "inputMode": "pointer",
+      "rngSeed": "5a31009be2a511e8042e11c02203d070"
+    },
+    {
+      "sessionId": "7f1ebe4ea3ee2852816c8a96812ccfaf",
+      "gameId": "B3",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "correct": 8,
+        "missed": 0,
+        "meanCorrectMs": 100,
+        "trials": [
+          {
+            "id": "analogy-category-3",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "物品所属类别：钢琴是乐器，圆规是绘图文具。",
+            "stimulus": {
+              "id": "analogy-category-3",
+              "type": "category",
+              "a": "钢琴",
+              "b": "乐器",
+              "c": "圆规",
+              "relation": "物品所属类别",
+              "options": [
+                "文具",
+                "厨具",
+                "家具",
+                "餐具"
+              ]
+            }
+          },
+          {
+            "id": "analogy-correspondence-6",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "公历紧接的下一个月：一月之后是二月，十月之后是十一月。",
+            "stimulus": {
+              "id": "analogy-correspondence-6",
+              "type": "correspondence",
+              "a": "一月",
+              "b": "二月",
+              "c": "十月",
+              "relation": "公历紧接的下一个月",
+              "options": [
+                "十一月",
+                "十二月",
+                "一月",
+                "九月"
+              ]
+            }
+          },
+          {
+            "id": "analogy-purpose-4",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "仪器与测量对象：温度计测温度，天平测质量。",
+            "stimulus": {
+              "id": "analogy-purpose-4",
+              "type": "purpose",
+              "a": "温度计",
+              "b": "测温度",
+              "c": "天平",
+              "relation": "仪器与测量对象",
+              "options": [
+                "测时间",
+                "测质量",
+                "测长度",
+                "测温度"
+              ]
+            }
+          },
+          {
+            "id": "analogy-category-4",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "植物所属类别：玫瑰属于花卉，松树属于树木。",
+            "stimulus": {
+              "id": "analogy-category-4",
+              "type": "category",
+              "a": "玫瑰",
+              "b": "花卉",
+              "c": "松树",
+              "relation": "植物所属类别",
+              "options": [
+                "树木",
+                "苔藓",
+                "菌类",
+                "水草"
+              ]
+            }
+          },
+          {
+            "id": "analogy-wholePart-10",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "器官与身体部分：瞳孔是眼睛的一部分，耳垂是耳朵的一部分。",
+            "stimulus": {
+              "id": "analogy-wholePart-10",
+              "type": "wholePart",
+              "a": "眼睛",
+              "b": "瞳孔",
+              "c": "耳朵",
+              "relation": "器官与身体部分",
+              "options": [
+                "眼镜",
+                "耳垂",
+                "帽子",
+                "耳环"
+              ]
+            }
+          },
+          {
+            "id": "analogy-correspondence-10",
+            "answer": 3,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "运算符号与对应运算：加号表示加法，减号表示减法。",
+            "stimulus": {
+              "id": "analogy-correspondence-10",
+              "type": "correspondence",
+              "a": "加号",
+              "b": "加法",
+              "c": "减号",
+              "relation": "运算符号与对应运算",
+              "options": [
+                "乘法",
+                "加法",
+                "除法",
+                "减法"
+              ]
+            }
+          },
+          {
+            "id": "analogy-purpose-9",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "器具与常见用途：水壶用来烧水，电饭锅用来煮饭。",
+            "stimulus": {
+              "id": "analogy-purpose-9",
+              "type": "purpose",
+              "a": "水壶",
+              "b": "烧水",
+              "c": "电饭锅",
+              "relation": "器具与常见用途",
+              "options": [
+                "制冷",
+                "煮饭",
+                "拍照",
+                "计步"
+              ]
+            }
+          },
+          {
+            "id": "analogy-wholePart-1",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "整体与结构部分：车轮是自行车的组成部分，屋顶是房屋的组成部分。",
+            "stimulus": {
+              "id": "analogy-wholePart-1",
+              "type": "wholePart",
+              "a": "自行车",
+              "b": "车轮",
+              "c": "房屋",
+              "relation": "整体与结构部分",
+              "options": [
+                "河流",
+                "屋顶",
+                "公园",
+                "云朵"
+              ]
+            }
+          }
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:11.052Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 4800,
+      "inputMode": "pointer",
+      "rngSeed": "5a1035e64249432b7a9656403fadf26d"
+    },
+    {
+      "sessionId": "e788a006057f19b9fbb6e250bfa2e9ae",
+      "gameId": "C1",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "correct": 8,
+        "missed": 0,
+        "meanCorrectMs": 100,
+        "trials": [
+          {
+            "id": "series-growing-8-1-1",
+            "answer": 3,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "预设差值递增规律：相邻差值为 1、2、3、4，每次增加 1；下一差值为 5，下一项是 23。",
+            "stimulus": {
+              "template": "growing",
+              "parameters": {
+                "start": 8,
+                "firstDifference": 1,
+                "increment": 1
+              },
+              "sequence": [
+                8,
+                9,
+                11,
+                14,
+                18
+              ],
+              "solution": 23,
+              "options": [
+                18,
+                22,
+                27,
+                23
+              ]
+            }
+          },
+          {
+            "id": "series-alternating-6-4-8",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "预设交替增量：依次加 4、8，重复循环；最后一步加了 4，下一步加 8，得到 42。",
+            "stimulus": {
+              "template": "alternating",
+              "parameters": {
+                "start": 6,
+                "p": 4,
+                "q": 8
+              },
+              "sequence": [
+                6,
+                10,
+                18,
+                22,
+                30,
+                34
+              ],
+              "solution": 42,
+              "options": [
+                30,
+                42,
+                26,
+                34
+              ]
+            }
+          },
+          {
+            "id": "series-geometric-2-3",
+            "answer": 3,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "预设等比规律：每次乘 3，所以 162 × 3 = 486。",
+            "stimulus": {
+              "template": "geometric",
+              "parameters": {
+                "start": 2,
+                "ratio": 3
+              },
+              "sequence": [
+                2,
+                6,
+                18,
+                54,
+                162
+              ],
+              "solution": 486,
+              "options": [
+                648,
+                270,
+                54,
+                486
+              ]
+            }
+          },
+          {
+            "id": "series-arithmetic-16-7",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "预设等差规律：每次加 7，所以 44 + 7 = 51。",
+            "stimulus": {
+              "template": "arithmetic",
+              "parameters": {
+                "start": 16,
+                "difference": 7
+              },
+              "sequence": [
+                16,
+                23,
+                30,
+                37,
+                44
+              ],
+              "solution": 51,
+              "options": [
+                51,
+                58,
+                37,
+                44
+              ]
+            }
+          },
+          {
+            "id": "series-arithmetic-9-3",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "预设等差规律：每次加 3，所以 21 + 3 = 24。",
+            "stimulus": {
+              "template": "arithmetic",
+              "parameters": {
+                "start": 9,
+                "difference": 3
+              },
+              "sequence": [
+                9,
+                12,
+                15,
+                18,
+                21
+              ],
+              "solution": 24,
+              "options": [
+                24,
+                22,
+                18,
+                27
+              ]
+            }
+          },
+          {
+            "id": "series-geometric-3-3",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "预设等比规律：每次乘 3，所以 243 × 3 = 729。",
+            "stimulus": {
+              "template": "geometric",
+              "parameters": {
+                "start": 3,
+                "ratio": 3
+              },
+              "sequence": [
+                3,
+                9,
+                27,
+                81,
+                243
+              ],
+              "solution": 729,
+              "options": [
+                244,
+                729,
+                891,
+                972
+              ]
+            }
+          },
+          {
+            "id": "series-alternating-10-8-2",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "预设交替增量：依次加 8、2，重复循环；最后一步加了 8，下一步加 2，得到 40。",
+            "stimulus": {
+              "template": "alternating",
+              "parameters": {
+                "start": 10,
+                "p": 8,
+                "q": 2
+              },
+              "sequence": [
+                10,
+                18,
+                20,
+                28,
+                30,
+                38
+              ],
+              "solution": 40,
+              "options": [
+                40,
+                30,
+                39,
+                38
+              ]
+            }
+          },
+          {
+            "id": "series-growing-5-4-2",
+            "answer": 2,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "预设差值递增规律：相邻差值为 4、6、8、10，每次增加 2；下一差值为 12，下一项是 45。",
+            "stimulus": {
+              "template": "growing",
+              "parameters": {
+                "start": 5,
+                "firstDifference": 4,
+                "increment": 2
+              },
+              "sequence": [
+                5,
+                9,
+                15,
+                23,
+                33
+              ],
+              "solution": 45,
+              "options": [
+                37,
+                33,
+                45,
+                47
+              ]
+            }
+          }
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:11.115Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 4800,
+      "inputMode": "pointer",
+      "rngSeed": "a6c63cc3108ba5b8ef97c3d480e59863"
+    },
+    {
+      "sessionId": "ef282f1be8a2dff0f1770630646b25fe",
+      "gameId": "C2",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "correct": 8,
+        "missed": 0,
+        "meanCorrectMs": 100,
+        "trials": [
+          {
+            "id": "pattern-filled-3:2:1",
+            "answer": 2,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "方向保持不变；数量保持为 2；实心与空心交替。下一项：向上、2 个、实心。",
+            "stimulus": {
+              "changing": [
+                "filled"
+              ],
+              "initial": {
+                "direction": 3,
+                "count": 2,
+                "filled": true
+              },
+              "periods": {
+                "direction": 4,
+                "count": 3,
+                "filled": 2
+              },
+              "steps": {
+                "direction": 0,
+                "count": 0,
+                "filled": 1
+              },
+              "sequence": [
+                {
+                  "direction": 3,
+                  "count": 2,
+                  "filled": true
+                },
+                {
+                  "direction": 3,
+                  "count": 2,
+                  "filled": false
+                },
+                {
+                  "direction": 3,
+                  "count": 2,
+                  "filled": true
+                },
+                {
+                  "direction": 3,
+                  "count": 2,
+                  "filled": false
+                }
+              ],
+              "options": [
+                {
+                  "direction": 0,
+                  "count": 2,
+                  "filled": true
+                },
+                {
+                  "direction": 3,
+                  "count": 3,
+                  "filled": true
+                },
+                {
+                  "direction": 3,
+                  "count": 2,
+                  "filled": true
+                },
+                {
+                  "direction": 3,
+                  "count": 2,
+                  "filled": false
+                }
+              ],
+              "distractors": [
+                "错误改变应保持不变的direction",
+                "错误改变应保持不变的count",
+                "按全部预设属性变化",
+                "未变化：重复上一项"
+              ]
+            }
+          },
+          {
+            "id": "pattern-count-3:1:1",
+            "answer": 2,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "方向保持不变；数量按 1→2→3→1 循环；填充保持实心。下一项：向上、2 个、实心。",
+            "stimulus": {
+              "changing": [
+                "count"
+              ],
+              "initial": {
+                "direction": 3,
+                "count": 1,
+                "filled": true
+              },
+              "periods": {
+                "direction": 4,
+                "count": 3,
+                "filled": 2
+              },
+              "steps": {
+                "direction": 0,
+                "count": 1,
+                "filled": 0
+              },
+              "sequence": [
+                {
+                  "direction": 3,
+                  "count": 1,
+                  "filled": true
+                },
+                {
+                  "direction": 3,
+                  "count": 2,
+                  "filled": true
+                },
+                {
+                  "direction": 3,
+                  "count": 3,
+                  "filled": true
+                },
+                {
+                  "direction": 3,
+                  "count": 1,
+                  "filled": true
+                }
+              ],
+              "options": [
+                {
+                  "direction": 0,
+                  "count": 2,
+                  "filled": true
+                },
+                {
+                  "direction": 3,
+                  "count": 1,
+                  "filled": true
+                },
+                {
+                  "direction": 3,
+                  "count": 2,
+                  "filled": true
+                },
+                {
+                  "direction": 3,
+                  "count": 3,
+                  "filled": true
+                }
+              ],
+              "distractors": [
+                "错误改变应保持不变的direction",
+                "未变化：重复上一项",
+                "按全部预设属性变化",
+                "数量沿相反次序变化"
+              ]
+            }
+          },
+          {
+            "id": "pattern-filled-0:1:0",
+            "answer": 3,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "方向保持不变；数量保持为 1；实心与空心交替。下一项：向右、1 个、空心。",
+            "stimulus": {
+              "changing": [
+                "filled"
+              ],
+              "initial": {
+                "direction": 0,
+                "count": 1,
+                "filled": false
+              },
+              "periods": {
+                "direction": 4,
+                "count": 3,
+                "filled": 2
+              },
+              "steps": {
+                "direction": 0,
+                "count": 0,
+                "filled": 1
+              },
+              "sequence": [
+                {
+                  "direction": 0,
+                  "count": 1,
+                  "filled": false
+                },
+                {
+                  "direction": 0,
+                  "count": 1,
+                  "filled": true
+                },
+                {
+                  "direction": 0,
+                  "count": 1,
+                  "filled": false
+                },
+                {
+                  "direction": 0,
+                  "count": 1,
+                  "filled": true
+                }
+              ],
+              "options": [
+                {
+                  "direction": 0,
+                  "count": 2,
+                  "filled": false
+                },
+                {
+                  "direction": 0,
+                  "count": 1,
+                  "filled": true
+                },
+                {
+                  "direction": 1,
+                  "count": 1,
+                  "filled": false
+                },
+                {
+                  "direction": 0,
+                  "count": 1,
+                  "filled": false
+                }
+              ],
+              "distractors": [
+                "错误改变应保持不变的count",
+                "未变化：重复上一项",
+                "错误改变应保持不变的direction",
+                "按全部预设属性变化"
+              ]
+            }
+          },
+          {
+            "id": "pattern-direction-0:3:1",
+            "answer": 2,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "方向每次顺时针旋转 90°；数量保持为 3；填充保持实心。下一项：向右、3 个、实心。",
+            "stimulus": {
+              "changing": [
+                "direction"
+              ],
+              "initial": {
+                "direction": 0,
+                "count": 3,
+                "filled": true
+              },
+              "periods": {
+                "direction": 4,
+                "count": 3,
+                "filled": 2
+              },
+              "steps": {
+                "direction": 1,
+                "count": 0,
+                "filled": 0
+              },
+              "sequence": [
+                {
+                  "direction": 0,
+                  "count": 3,
+                  "filled": true
+                },
+                {
+                  "direction": 1,
+                  "count": 3,
+                  "filled": true
+                },
+                {
+                  "direction": 2,
+                  "count": 3,
+                  "filled": true
+                },
+                {
+                  "direction": 3,
+                  "count": 3,
+                  "filled": true
+                }
+              ],
+              "options": [
+                {
+                  "direction": 2,
+                  "count": 3,
+                  "filled": true
+                },
+                {
+                  "direction": 3,
+                  "count": 3,
+                  "filled": true
+                },
+                {
+                  "direction": 0,
+                  "count": 3,
+                  "filled": true
+                },
+                {
+                  "direction": 1,
+                  "count": 3,
+                  "filled": true
+                }
+              ],
+              "distractors": [
+                "方向反转：向相反方向转 90°",
+                "未变化：重复上一项",
+                "按全部预设属性变化",
+                "错误改变direction"
+              ]
+            }
+          },
+          {
+            "id": "pattern-direction+filled-1:2:1",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "方向每次顺时针旋转 90°；数量保持为 2；实心与空心交替。下一项：向下、2 个、实心。",
+            "stimulus": {
+              "changing": [
+                "direction",
+                "filled"
+              ],
+              "initial": {
+                "direction": 1,
+                "count": 2,
+                "filled": true
+              },
+              "periods": {
+                "direction": 4,
+                "count": 3,
+                "filled": 2
+              },
+              "steps": {
+                "direction": 1,
+                "count": 0,
+                "filled": 1
+              },
+              "sequence": [
+                {
+                  "direction": 1,
+                  "count": 2,
+                  "filled": true
+                },
+                {
+                  "direction": 2,
+                  "count": 2,
+                  "filled": false
+                },
+                {
+                  "direction": 3,
+                  "count": 2,
+                  "filled": true
+                },
+                {
+                  "direction": 0,
+                  "count": 2,
+                  "filled": false
+                }
+              ],
+              "options": [
+                {
+                  "direction": 1,
+                  "count": 2,
+                  "filled": true
+                },
+                {
+                  "direction": 0,
+                  "count": 2,
+                  "filled": false
+                },
+                {
+                  "direction": 1,
+                  "count": 2,
+                  "filled": false
+                },
+                {
+                  "direction": 0,
+                  "count": 2,
+                  "filled": true
+                }
+              ],
+              "distractors": [
+                "按全部预设属性变化",
+                "未变化：重复上一项",
+                "只改变direction，漏掉另一属性",
+                "只改变filled，漏掉另一属性"
+              ]
+            }
+          },
+          {
+            "id": "pattern-direction+filled-1:3:0",
+            "answer": 3,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "方向每次顺时针旋转 90°；数量保持为 3；实心与空心交替。下一项：向下、3 个、空心。",
+            "stimulus": {
+              "changing": [
+                "direction",
+                "filled"
+              ],
+              "initial": {
+                "direction": 1,
+                "count": 3,
+                "filled": false
+              },
+              "periods": {
+                "direction": 4,
+                "count": 3,
+                "filled": 2
+              },
+              "steps": {
+                "direction": 1,
+                "count": 0,
+                "filled": 1
+              },
+              "sequence": [
+                {
+                  "direction": 1,
+                  "count": 3,
+                  "filled": false
+                },
+                {
+                  "direction": 2,
+                  "count": 3,
+                  "filled": true
+                },
+                {
+                  "direction": 3,
+                  "count": 3,
+                  "filled": false
+                },
+                {
+                  "direction": 0,
+                  "count": 3,
+                  "filled": true
+                }
+              ],
+              "options": [
+                {
+                  "direction": 0,
+                  "count": 3,
+                  "filled": false
+                },
+                {
+                  "direction": 1,
+                  "count": 3,
+                  "filled": true
+                },
+                {
+                  "direction": 0,
+                  "count": 3,
+                  "filled": true
+                },
+                {
+                  "direction": 1,
+                  "count": 3,
+                  "filled": false
+                }
+              ],
+              "distractors": [
+                "只改变filled，漏掉另一属性",
+                "只改变direction，漏掉另一属性",
+                "未变化：重复上一项",
+                "按全部预设属性变化"
+              ]
+            }
+          },
+          {
+            "id": "pattern-count+filled-1:3:1",
+            "answer": 2,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "方向保持不变；数量按 1→2→3→1 循环；实心与空心交替。下一项：向下、1 个、实心。",
+            "stimulus": {
+              "changing": [
+                "count",
+                "filled"
+              ],
+              "initial": {
+                "direction": 1,
+                "count": 3,
+                "filled": true
+              },
+              "periods": {
+                "direction": 4,
+                "count": 3,
+                "filled": 2
+              },
+              "steps": {
+                "direction": 0,
+                "count": 1,
+                "filled": 1
+              },
+              "sequence": [
+                {
+                  "direction": 1,
+                  "count": 3,
+                  "filled": true
+                },
+                {
+                  "direction": 1,
+                  "count": 1,
+                  "filled": false
+                },
+                {
+                  "direction": 1,
+                  "count": 2,
+                  "filled": true
+                },
+                {
+                  "direction": 1,
+                  "count": 3,
+                  "filled": false
+                }
+              ],
+              "options": [
+                {
+                  "direction": 1,
+                  "count": 1,
+                  "filled": false
+                },
+                {
+                  "direction": 1,
+                  "count": 3,
+                  "filled": false
+                },
+                {
+                  "direction": 1,
+                  "count": 1,
+                  "filled": true
+                },
+                {
+                  "direction": 1,
+                  "count": 3,
+                  "filled": true
+                }
+              ],
+              "distractors": [
+                "只改变count，漏掉另一属性",
+                "未变化：重复上一项",
+                "按全部预设属性变化",
+                "只改变filled，漏掉另一属性"
+              ]
+            }
+          },
+          {
+            "id": "pattern-direction+count-0:2:0",
+            "answer": 3,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "方向每次顺时针旋转 90°；数量按 1→2→3→1 循环；填充保持空心。下一项：向右、3 个、空心。",
+            "stimulus": {
+              "changing": [
+                "direction",
+                "count"
+              ],
+              "initial": {
+                "direction": 0,
+                "count": 2,
+                "filled": false
+              },
+              "periods": {
+                "direction": 4,
+                "count": 3,
+                "filled": 2
+              },
+              "steps": {
+                "direction": 1,
+                "count": 1,
+                "filled": 0
+              },
+              "sequence": [
+                {
+                  "direction": 0,
+                  "count": 2,
+                  "filled": false
+                },
+                {
+                  "direction": 1,
+                  "count": 3,
+                  "filled": false
+                },
+                {
+                  "direction": 2,
+                  "count": 1,
+                  "filled": false
+                },
+                {
+                  "direction": 3,
+                  "count": 2,
+                  "filled": false
+                }
+              ],
+              "options": [
+                {
+                  "direction": 3,
+                  "count": 3,
+                  "filled": false
+                },
+                {
+                  "direction": 0,
+                  "count": 2,
+                  "filled": false
+                },
+                {
+                  "direction": 3,
+                  "count": 2,
+                  "filled": false
+                },
+                {
+                  "direction": 0,
+                  "count": 3,
+                  "filled": false
+                }
+              ],
+              "distractors": [
+                "只改变count，漏掉另一属性",
+                "只改变direction，漏掉另一属性",
+                "未变化：重复上一项",
+                "按全部预设属性变化"
+              ]
+            }
+          }
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:11.183Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 4800,
+      "inputMode": "pointer",
+      "rngSeed": "a6ca9511554ee9ff6b70a1541d5f51d2"
+    },
+    {
+      "sessionId": "dccbc1b6c049d26c28100787719e506e",
+      "gameId": "C3",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "correct": 8,
+        "missed": 0,
+        "meanCorrectMs": 100,
+        "trials": [
+          {
+            "id": "truth-18",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "若获奖者是 A，A/B/C 的话依次为假、真、假（1 句真话）；若获奖者是 B，A/B/C 的话依次为真、假、真（2 句真话）；若获奖者是 C，A/B/C 的话依次为真、真、假（2 句真话）。只有获奖者为 A 符合恰好一真，因此说真话的是 B（题目问说话者，不是获奖者）。",
+            "stimulus": {
+              "statements": [
+                {
+                  "op": "isnot",
+                  "person": "A"
+                },
+                {
+                  "op": "isnot",
+                  "person": "B"
+                },
+                {
+                  "op": "is",
+                  "person": "B"
+                }
+              ],
+              "target": "A",
+              "truthSpeaker": "B",
+              "models": [
+                {
+                  "target": "A",
+                  "truth": [
+                    false,
+                    true,
+                    false
+                  ],
+                  "trueCount": 1,
+                  "truthSpeaker": "B"
+                },
+                {
+                  "target": "B",
+                  "truth": [
+                    true,
+                    false,
+                    true
+                  ],
+                  "trueCount": 2,
+                  "truthSpeaker": null
+                },
+                {
+                  "target": "C",
+                  "truth": [
+                    true,
+                    true,
+                    false
+                  ],
+                  "trueCount": 2,
+                  "truthSpeaker": null
+                }
+              ],
+              "options": [
+                "C",
+                "B",
+                "A"
+              ]
+            }
+          },
+          {
+            "id": "truth-19",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "若获奖者是 A，A/B/C 的话依次为假、真、真（2 句真话）；若获奖者是 B，A/B/C 的话依次为真、真、假（2 句真话）；若获奖者是 C，A/B/C 的话依次为真、假、假（1 句真话）。只有获奖者为 C 符合恰好一真，因此说真话的是 A（题目问说话者，不是获奖者）。",
+            "stimulus": {
+              "statements": [
+                {
+                  "op": "isnot",
+                  "person": "A"
+                },
+                {
+                  "op": "isnot",
+                  "person": "C"
+                },
+                {
+                  "op": "is",
+                  "person": "A"
+                }
+              ],
+              "target": "C",
+              "truthSpeaker": "A",
+              "models": [
+                {
+                  "target": "A",
+                  "truth": [
+                    false,
+                    true,
+                    true
+                  ],
+                  "trueCount": 2,
+                  "truthSpeaker": null
+                },
+                {
+                  "target": "B",
+                  "truth": [
+                    true,
+                    true,
+                    false
+                  ],
+                  "trueCount": 2,
+                  "truthSpeaker": null
+                },
+                {
+                  "target": "C",
+                  "truth": [
+                    true,
+                    false,
+                    false
+                  ],
+                  "trueCount": 1,
+                  "truthSpeaker": "A"
+                }
+              ],
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            }
+          },
+          {
+            "id": "truth-6",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "若获奖者是 A，A/B/C 的话依次为假、真、假（1 句真话）；若获奖者是 B，A/B/C 的话依次为真、假、真（2 句真话）；若获奖者是 C，A/B/C 的话依次为假、真、真（2 句真话）。只有获奖者为 A 符合恰好一真，因此说真话的是 B（题目问说话者，不是获奖者）。",
+            "stimulus": {
+              "statements": [
+                {
+                  "op": "is",
+                  "person": "B"
+                },
+                {
+                  "op": "isnot",
+                  "person": "B"
+                },
+                {
+                  "op": "isnot",
+                  "person": "A"
+                }
+              ],
+              "target": "A",
+              "truthSpeaker": "B",
+              "models": [
+                {
+                  "target": "A",
+                  "truth": [
+                    false,
+                    true,
+                    false
+                  ],
+                  "trueCount": 1,
+                  "truthSpeaker": "B"
+                },
+                {
+                  "target": "B",
+                  "truth": [
+                    true,
+                    false,
+                    true
+                  ],
+                  "trueCount": 2,
+                  "truthSpeaker": null
+                },
+                {
+                  "target": "C",
+                  "truth": [
+                    false,
+                    true,
+                    true
+                  ],
+                  "trueCount": 2,
+                  "truthSpeaker": null
+                }
+              ],
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            }
+          },
+          {
+            "id": "truth-17",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "若获奖者是 A，A/B/C 的话依次为假、真、真（2 句真话）；若获奖者是 B，A/B/C 的话依次为真、假、假（1 句真话）；若获奖者是 C，A/B/C 的话依次为真、真、假（2 句真话）。只有获奖者为 B 符合恰好一真，因此说真话的是 A（题目问说话者，不是获奖者）。",
+            "stimulus": {
+              "statements": [
+                {
+                  "op": "isnot",
+                  "person": "A"
+                },
+                {
+                  "op": "isnot",
+                  "person": "B"
+                },
+                {
+                  "op": "is",
+                  "person": "A"
+                }
+              ],
+              "target": "B",
+              "truthSpeaker": "A",
+              "models": [
+                {
+                  "target": "A",
+                  "truth": [
+                    false,
+                    true,
+                    true
+                  ],
+                  "trueCount": 2,
+                  "truthSpeaker": null
+                },
+                {
+                  "target": "B",
+                  "truth": [
+                    true,
+                    false,
+                    false
+                  ],
+                  "trueCount": 1,
+                  "truthSpeaker": "A"
+                },
+                {
+                  "target": "C",
+                  "truth": [
+                    true,
+                    true,
+                    false
+                  ],
+                  "trueCount": 2,
+                  "truthSpeaker": null
+                }
+              ],
+              "options": [
+                "C",
+                "A",
+                "B"
+              ]
+            }
+          },
+          {
+            "id": "truth-3",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "若获奖者是 A，A/B/C 的话依次为真、真、假（2 句真话）；若获奖者是 B，A/B/C 的话依次为假、假、真（1 句真话）；若获奖者是 C，A/B/C 的话依次为假、真、真（2 句真话）。只有获奖者为 B 符合恰好一真，因此说真话的是 C（题目问说话者，不是获奖者）。",
+            "stimulus": {
+              "statements": [
+                {
+                  "op": "is",
+                  "person": "A"
+                },
+                {
+                  "op": "isnot",
+                  "person": "B"
+                },
+                {
+                  "op": "isnot",
+                  "person": "A"
+                }
+              ],
+              "target": "B",
+              "truthSpeaker": "C",
+              "models": [
+                {
+                  "target": "A",
+                  "truth": [
+                    true,
+                    true,
+                    false
+                  ],
+                  "trueCount": 2,
+                  "truthSpeaker": null
+                },
+                {
+                  "target": "B",
+                  "truth": [
+                    false,
+                    false,
+                    true
+                  ],
+                  "trueCount": 1,
+                  "truthSpeaker": "C"
+                },
+                {
+                  "target": "C",
+                  "truth": [
+                    false,
+                    true,
+                    true
+                  ],
+                  "trueCount": 2,
+                  "truthSpeaker": null
+                }
+              ],
+              "options": [
+                "C",
+                "A",
+                "B"
+              ]
+            }
+          },
+          {
+            "id": "truth-15",
+            "answer": 2,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "若获奖者是 A，A/B/C 的话依次为假、假、真（1 句真话）；若获奖者是 B，A/B/C 的话依次为真、真、假（2 句真话）；若获奖者是 C，A/B/C 的话依次为真、假、真（2 句真话）。只有获奖者为 A 符合恰好一真，因此说真话的是 C（题目问说话者，不是获奖者）。",
+            "stimulus": {
+              "statements": [
+                {
+                  "op": "isnot",
+                  "person": "A"
+                },
+                {
+                  "op": "is",
+                  "person": "B"
+                },
+                {
+                  "op": "isnot",
+                  "person": "B"
+                }
+              ],
+              "target": "A",
+              "truthSpeaker": "C",
+              "models": [
+                {
+                  "target": "A",
+                  "truth": [
+                    false,
+                    false,
+                    true
+                  ],
+                  "trueCount": 1,
+                  "truthSpeaker": "C"
+                },
+                {
+                  "target": "B",
+                  "truth": [
+                    true,
+                    true,
+                    false
+                  ],
+                  "trueCount": 2,
+                  "truthSpeaker": null
+                },
+                {
+                  "target": "C",
+                  "truth": [
+                    true,
+                    false,
+                    true
+                  ],
+                  "trueCount": 2,
+                  "truthSpeaker": null
+                }
+              ],
+              "options": [
+                "B",
+                "A",
+                "C"
+              ]
+            }
+          },
+          {
+            "id": "truth-2",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "若获奖者是 A，A/B/C 的话依次为真、假、真（2 句真话）；若获奖者是 B，A/B/C 的话依次为假、真、真（2 句真话）；若获奖者是 C，A/B/C 的话依次为假、真、假（1 句真话）。只有获奖者为 C 符合恰好一真，因此说真话的是 B（题目问说话者，不是获奖者）。",
+            "stimulus": {
+              "statements": [
+                {
+                  "op": "is",
+                  "person": "A"
+                },
+                {
+                  "op": "isnot",
+                  "person": "A"
+                },
+                {
+                  "op": "isnot",
+                  "person": "C"
+                }
+              ],
+              "target": "C",
+              "truthSpeaker": "B",
+              "models": [
+                {
+                  "target": "A",
+                  "truth": [
+                    true,
+                    false,
+                    true
+                  ],
+                  "trueCount": 2,
+                  "truthSpeaker": null
+                },
+                {
+                  "target": "B",
+                  "truth": [
+                    false,
+                    true,
+                    true
+                  ],
+                  "trueCount": 2,
+                  "truthSpeaker": null
+                },
+                {
+                  "target": "C",
+                  "truth": [
+                    false,
+                    true,
+                    false
+                  ],
+                  "trueCount": 1,
+                  "truthSpeaker": "B"
+                }
+              ],
+              "options": [
+                "B",
+                "A",
+                "C"
+              ]
+            }
+          },
+          {
+            "id": "truth-13",
+            "answer": 2,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "若获奖者是 A，A/B/C 的话依次为假、真、真（2 句真话）；若获奖者是 B，A/B/C 的话依次为真、假、假（1 句真话）；若获奖者是 C，A/B/C 的话依次为真、假、真（2 句真话）。只有获奖者为 B 符合恰好一真，因此说真话的是 A（题目问说话者，不是获奖者）。",
+            "stimulus": {
+              "statements": [
+                {
+                  "op": "isnot",
+                  "person": "A"
+                },
+                {
+                  "op": "is",
+                  "person": "A"
+                },
+                {
+                  "op": "isnot",
+                  "person": "B"
+                }
+              ],
+              "target": "B",
+              "truthSpeaker": "A",
+              "models": [
+                {
+                  "target": "A",
+                  "truth": [
+                    false,
+                    true,
+                    true
+                  ],
+                  "trueCount": 2,
+                  "truthSpeaker": null
+                },
+                {
+                  "target": "B",
+                  "truth": [
+                    true,
+                    false,
+                    false
+                  ],
+                  "trueCount": 1,
+                  "truthSpeaker": "A"
+                },
+                {
+                  "target": "C",
+                  "truth": [
+                    true,
+                    false,
+                    true
+                  ],
+                  "trueCount": 2,
+                  "truthSpeaker": null
+                }
+              ],
+              "options": [
+                "B",
+                "C",
+                "A"
+              ]
+            }
+          }
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:11.250Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 4800,
+      "inputMode": "pointer",
+      "rngSeed": "b096dc217dce2689087ca14566ca298e"
+    },
+    {
+      "sessionId": "e3c5b2a26cbff96c3f552e163c3acab9",
+      "gameId": "D1",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "reactionTimes": [
+          159,
+          168,
+          159,
+          150,
+          162
+        ],
+        "meanRtMs": 159.6,
+        "medianRtMs": 159,
+        "penalties": 0,
+        "attempts": 5,
+        "trials": [
+          {
+            "attempt": 1,
+            "waitMs": 3715,
+            "signalDelayMs": 3731,
+            "outcome": "valid",
+            "rtMs": 159
+          },
+          {
+            "attempt": 2,
+            "waitMs": 3666,
+            "signalDelayMs": 3682,
+            "outcome": "valid",
+            "rtMs": 168
+          },
+          {
+            "attempt": 3,
+            "waitMs": 2935,
+            "signalDelayMs": 2951,
+            "outcome": "valid",
+            "rtMs": 159
+          },
+          {
+            "attempt": 4,
+            "waitMs": 3424,
+            "signalDelayMs": 3440,
+            "outcome": "valid",
+            "rtMs": 150
+          },
+          {
+            "attempt": 5,
+            "waitMs": 2952,
+            "signalDelayMs": 2968,
+            "outcome": "valid",
+            "rtMs": 162
+          }
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:11.812Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 20070,
+      "inputMode": "pointer",
+      "rngSeed": "9826b4c3af79337c20c399d1c330dfc7"
+    },
+    {
+      "sessionId": "1e51ee07d88ca3e06dced58e3dfef33c",
+      "gameId": "D2",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "correct": 12,
+        "missed": 0,
+        "meanCorrectMs": 100,
+        "trials": [
+          {
+            "id": "stroop-黄-黄",
+            "answer": 3,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "正确墨色：黄。忽略文字含义，只看墨色。",
+            "stimulus": {
+              "word": "黄",
+              "ink": "黄",
+              "inkColor": "#facc15",
+              "congruent": true
+            }
+          },
+          {
+            "id": "stroop-红-黄",
+            "answer": 2,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "正确墨色：红。忽略文字含义，只看墨色。",
+            "stimulus": {
+              "word": "黄",
+              "ink": "红",
+              "inkColor": "#fb7185",
+              "congruent": false
+            }
+          },
+          {
+            "id": "stroop-绿-黄",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "正确墨色：绿。忽略文字含义，只看墨色。",
+            "stimulus": {
+              "word": "黄",
+              "ink": "绿",
+              "inkColor": "#4ade80",
+              "congruent": false
+            }
+          },
+          {
+            "id": "stroop-红-绿",
+            "answer": 2,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "正确墨色：红。忽略文字含义，只看墨色。",
+            "stimulus": {
+              "word": "绿",
+              "ink": "红",
+              "inkColor": "#fb7185",
+              "congruent": false
+            }
+          },
+          {
+            "id": "stroop-蓝-蓝",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "正确墨色：蓝。忽略文字含义，只看墨色。",
+            "stimulus": {
+              "word": "蓝",
+              "ink": "蓝",
+              "inkColor": "#60a5fa",
+              "congruent": true
+            }
+          },
+          {
+            "id": "stroop-绿-蓝",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "正确墨色：绿。忽略文字含义，只看墨色。",
+            "stimulus": {
+              "word": "蓝",
+              "ink": "绿",
+              "inkColor": "#4ade80",
+              "congruent": false
+            }
+          },
+          {
+            "id": "stroop-黄-绿",
+            "answer": 3,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "正确墨色：黄。忽略文字含义，只看墨色。",
+            "stimulus": {
+              "word": "绿",
+              "ink": "黄",
+              "inkColor": "#facc15",
+              "congruent": false
+            }
+          },
+          {
+            "id": "stroop-蓝-黄",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "正确墨色：蓝。忽略文字含义，只看墨色。",
+            "stimulus": {
+              "word": "黄",
+              "ink": "蓝",
+              "inkColor": "#60a5fa",
+              "congruent": false
+            }
+          },
+          {
+            "id": "stroop-黄-蓝",
+            "answer": 3,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "正确墨色：黄。忽略文字含义，只看墨色。",
+            "stimulus": {
+              "word": "蓝",
+              "ink": "黄",
+              "inkColor": "#facc15",
+              "congruent": false
+            }
+          },
+          {
+            "id": "stroop-红-红",
+            "answer": 2,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "正确墨色：红。忽略文字含义，只看墨色。",
+            "stimulus": {
+              "word": "红",
+              "ink": "红",
+              "inkColor": "#fb7185",
+              "congruent": true
+            }
+          },
+          {
+            "id": "stroop-绿-绿",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "正确墨色：绿。忽略文字含义，只看墨色。",
+            "stimulus": {
+              "word": "绿",
+              "ink": "绿",
+              "inkColor": "#4ade80",
+              "congruent": true
+            }
+          },
+          {
+            "id": "stroop-蓝-红",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "正确墨色：蓝。忽略文字含义，只看墨色。",
+            "stimulus": {
+              "word": "红",
+              "ink": "蓝",
+              "inkColor": "#60a5fa",
+              "congruent": false
+            }
+          }
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:11.911Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 7200,
+      "inputMode": "pointer",
+      "rngSeed": "3fdfa9c91ff767937725c7111fb30e8a"
+    },
+    {
+      "sessionId": "a42b4c996c1516fe46af01ec34196f5f",
+      "gameId": "D3",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "hits": 15,
+        "misses": 0,
+        "errors": 0,
+        "meanHitMs": 0,
+        "trials": [
+          {
+            "index": 0,
+            "target": 5,
+            "scheduledMs": 0,
+            "shownMs": 16,
+            "outcome": "hit",
+            "rtMs": 0,
+            "errors": 0
+          },
+          {
+            "index": 1,
+            "target": 3,
+            "scheduledMs": 2000,
+            "shownMs": 2016,
+            "outcome": "hit",
+            "rtMs": 0,
+            "errors": 0
+          },
+          {
+            "index": 2,
+            "target": 8,
+            "scheduledMs": 4000,
+            "shownMs": 4016,
+            "outcome": "hit",
+            "rtMs": 0,
+            "errors": 0
+          },
+          {
+            "index": 3,
+            "target": 0,
+            "scheduledMs": 6000,
+            "shownMs": 6016,
+            "outcome": "hit",
+            "rtMs": 0,
+            "errors": 0
+          },
+          {
+            "index": 4,
+            "target": 7,
+            "scheduledMs": 8000,
+            "shownMs": 8016,
+            "outcome": "hit",
+            "rtMs": 0,
+            "errors": 0
+          },
+          {
+            "index": 5,
+            "target": 1,
+            "scheduledMs": 10000,
+            "shownMs": 10016,
+            "outcome": "hit",
+            "rtMs": 0,
+            "errors": 0
+          },
+          {
+            "index": 6,
+            "target": 3,
+            "scheduledMs": 12000,
+            "shownMs": 12016,
+            "outcome": "hit",
+            "rtMs": 0,
+            "errors": 0
+          },
+          {
+            "index": 7,
+            "target": 1,
+            "scheduledMs": 14000,
+            "shownMs": 14016,
+            "outcome": "hit",
+            "rtMs": 0,
+            "errors": 0
+          },
+          {
+            "index": 8,
+            "target": 5,
+            "scheduledMs": 16000,
+            "shownMs": 16016,
+            "outcome": "hit",
+            "rtMs": 0,
+            "errors": 0
+          },
+          {
+            "index": 9,
+            "target": 3,
+            "scheduledMs": 18000,
+            "shownMs": 18016,
+            "outcome": "hit",
+            "rtMs": 0,
+            "errors": 0
+          },
+          {
+            "index": 10,
+            "target": 5,
+            "scheduledMs": 20000,
+            "shownMs": 20016,
+            "outcome": "hit",
+            "rtMs": 0,
+            "errors": 0
+          },
+          {
+            "index": 11,
+            "target": 1,
+            "scheduledMs": 22000,
+            "shownMs": 22016,
+            "outcome": "hit",
+            "rtMs": 0,
+            "errors": 0
+          },
+          {
+            "index": 12,
+            "target": 3,
+            "scheduledMs": 24000,
+            "shownMs": 24016,
+            "outcome": "hit",
+            "rtMs": 0,
+            "errors": 0
+          },
+          {
+            "index": 13,
+            "target": 4,
+            "scheduledMs": 26000,
+            "shownMs": 26016,
+            "outcome": "hit",
+            "rtMs": 0,
+            "errors": 0
+          },
+          {
+            "index": 14,
+            "target": 8,
+            "scheduledMs": 28000,
+            "shownMs": 28016,
+            "outcome": "hit",
+            "rtMs": 0,
+            "errors": 0
+          }
+        ],
+        "targets": [
+          5,
+          3,
+          8,
+          0,
+          7,
+          1,
+          3,
+          1,
+          5,
+          3,
+          5,
+          1,
+          3,
+          4,
+          8
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:11.988Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 30000,
+      "inputMode": "pointer",
+      "rngSeed": "dab80314211ef1d8a0d8e3c80c9b73e3"
+    },
+    {
+      "sessionId": "1dd0e73d634efdb1be534e0e218a9dc8",
+      "gameId": "E1",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "correct": 23,
+        "matchCorrect": 8,
+        "nonmatchCorrect": 15,
+        "missed": 0,
+        "trials": [
+          {
+            "position": 1,
+            "stimulus": 0,
+            "warmup": true,
+            "expected": null,
+            "answer": null,
+            "correct": null,
+            "rtMs": null,
+            "presentedAtMs": 0
+          },
+          {
+            "position": 2,
+            "stimulus": 6,
+            "warmup": true,
+            "expected": null,
+            "answer": null,
+            "correct": null,
+            "rtMs": null,
+            "presentedAtMs": 2000
+          },
+          {
+            "position": 3,
+            "stimulus": 9,
+            "warmup": false,
+            "expected": false,
+            "answer": false,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 4000
+          },
+          {
+            "position": 4,
+            "stimulus": 4,
+            "warmup": false,
+            "expected": false,
+            "answer": false,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 6000
+          },
+          {
+            "position": 5,
+            "stimulus": 9,
+            "warmup": false,
+            "expected": true,
+            "answer": true,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 8000
+          },
+          {
+            "position": 6,
+            "stimulus": 9,
+            "warmup": false,
+            "expected": false,
+            "answer": false,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 10000
+          },
+          {
+            "position": 7,
+            "stimulus": 9,
+            "warmup": false,
+            "expected": true,
+            "answer": true,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 12000
+          },
+          {
+            "position": 8,
+            "stimulus": 2,
+            "warmup": false,
+            "expected": false,
+            "answer": false,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 14000
+          },
+          {
+            "position": 9,
+            "stimulus": 8,
+            "warmup": false,
+            "expected": false,
+            "answer": false,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 16000
+          },
+          {
+            "position": 10,
+            "stimulus": 2,
+            "warmup": false,
+            "expected": true,
+            "answer": true,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 18000
+          },
+          {
+            "position": 11,
+            "stimulus": 0,
+            "warmup": false,
+            "expected": false,
+            "answer": false,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 20000
+          },
+          {
+            "position": 12,
+            "stimulus": 2,
+            "warmup": false,
+            "expected": true,
+            "answer": true,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 22000
+          },
+          {
+            "position": 13,
+            "stimulus": 8,
+            "warmup": false,
+            "expected": false,
+            "answer": false,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 24000
+          },
+          {
+            "position": 14,
+            "stimulus": 3,
+            "warmup": false,
+            "expected": false,
+            "answer": false,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 26000
+          },
+          {
+            "position": 15,
+            "stimulus": 9,
+            "warmup": false,
+            "expected": false,
+            "answer": false,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 28000
+          },
+          {
+            "position": 16,
+            "stimulus": 3,
+            "warmup": false,
+            "expected": true,
+            "answer": true,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 30000
+          },
+          {
+            "position": 17,
+            "stimulus": 9,
+            "warmup": false,
+            "expected": true,
+            "answer": true,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 32000
+          },
+          {
+            "position": 18,
+            "stimulus": 9,
+            "warmup": false,
+            "expected": false,
+            "answer": false,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 34000
+          },
+          {
+            "position": 19,
+            "stimulus": 9,
+            "warmup": false,
+            "expected": true,
+            "answer": true,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 36000
+          },
+          {
+            "position": 20,
+            "stimulus": 0,
+            "warmup": false,
+            "expected": false,
+            "answer": false,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 38000
+          },
+          {
+            "position": 21,
+            "stimulus": 4,
+            "warmup": false,
+            "expected": false,
+            "answer": false,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 40000
+          },
+          {
+            "position": 22,
+            "stimulus": 9,
+            "warmup": false,
+            "expected": false,
+            "answer": false,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 42000
+          },
+          {
+            "position": 23,
+            "stimulus": 5,
+            "warmup": false,
+            "expected": false,
+            "answer": false,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 44000
+          },
+          {
+            "position": 24,
+            "stimulus": 9,
+            "warmup": false,
+            "expected": true,
+            "answer": true,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 46000
+          },
+          {
+            "position": 25,
+            "stimulus": 1,
+            "warmup": false,
+            "expected": false,
+            "answer": false,
+            "correct": true,
+            "rtMs": 600,
+            "presentedAtMs": 48000
+          }
+        ],
+        "sequence": [
+          0,
+          6,
+          9,
+          4,
+          9,
+          9,
+          9,
+          2,
+          8,
+          2,
+          0,
+          2,
+          8,
+          3,
+          9,
+          3,
+          9,
+          9,
+          9,
+          0,
+          4,
+          9,
+          5,
+          9,
+          1
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:12.099Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 50000,
+      "inputMode": "pointer",
+      "rngSeed": "6765477d6931b82fd4e023d715b8a032"
+    },
+    {
+      "sessionId": "cea61b2d70093550ae87c5aeaa6b8506",
+      "gameId": "E2",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "completed": true,
+        "progress": 25,
+        "errors": 0,
+        "durationMs": 2500,
+        "layout": [
+          24,
+          20,
+          2,
+          19,
+          6,
+          16,
+          12,
+          5,
+          8,
+          9,
+          11,
+          17,
+          18,
+          10,
+          25,
+          4,
+          23,
+          3,
+          21,
+          7,
+          22,
+          13,
+          14,
+          1,
+          15
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:10.340Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 2500,
+      "inputMode": "mixed",
+      "rngSeed": "cd0b892b5cd72de541370586e390a7ef"
+    },
+    {
+      "sessionId": "4bc09a457260a607a26dd3e79e11bfc8",
+      "gameId": "E3",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "correct": 6,
+        "meanCorrectMs": 100,
+        "trials": [
+          {
+            "id": "E3-1",
+            "columns": 3,
+            "rows": 3,
+            "regular": "←",
+            "target": "→",
+            "targetIndex": 1,
+            "symbols": [
+              "←",
+              "→",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←"
+            ],
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100
+          },
+          {
+            "id": "E3-2",
+            "columns": 3,
+            "rows": 4,
+            "regular": "↑",
+            "target": "↓",
+            "targetIndex": 4,
+            "symbols": [
+              "↑",
+              "↑",
+              "↑",
+              "↑",
+              "↓",
+              "↑",
+              "↑",
+              "↑",
+              "↑",
+              "↑",
+              "↑",
+              "↑"
+            ],
+            "answer": 4,
+            "correct": true,
+            "rtMs": 100
+          },
+          {
+            "id": "E3-3",
+            "columns": 4,
+            "rows": 4,
+            "regular": "↓",
+            "target": "↑",
+            "targetIndex": 9,
+            "symbols": [
+              "↓",
+              "↓",
+              "↓",
+              "↓",
+              "↓",
+              "↓",
+              "↓",
+              "↓",
+              "↓",
+              "↑",
+              "↓",
+              "↓",
+              "↓",
+              "↓",
+              "↓",
+              "↓"
+            ],
+            "answer": 9,
+            "correct": true,
+            "rtMs": 100
+          },
+          {
+            "id": "E3-4",
+            "columns": 4,
+            "rows": 5,
+            "regular": "→",
+            "target": "←",
+            "targetIndex": 17,
+            "symbols": [
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "←",
+              "→",
+              "→"
+            ],
+            "answer": 17,
+            "correct": true,
+            "rtMs": 100
+          },
+          {
+            "id": "E3-5",
+            "columns": 5,
+            "rows": 5,
+            "regular": "→",
+            "target": "←",
+            "targetIndex": 14,
+            "symbols": [
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "←",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→",
+              "→"
+            ],
+            "answer": 14,
+            "correct": true,
+            "rtMs": 100
+          },
+          {
+            "id": "E3-6",
+            "columns": 5,
+            "rows": 6,
+            "regular": "←",
+            "target": "→",
+            "targetIndex": 14,
+            "symbols": [
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "→",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←",
+              "←"
+            ],
+            "answer": 14,
+            "correct": true,
+            "rtMs": 100
+          }
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:12.165Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 3600,
+      "inputMode": "pointer",
+      "rngSeed": "b546ae505ec7ef2417971ca7beb47080"
+    },
+    {
+      "sessionId": "ac6328a23824b5fca7d66fe180358cbb",
+      "gameId": "F1",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "correct": 10,
+        "missed": 0,
+        "meanCorrectMs": 100,
+        "trials": [
+          {
+            "id": "F1-1",
+            "answer": 2,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "89 − 68 = 21",
+            "stimulus": {
+              "left": 89,
+              "operator": "-",
+              "right": 68,
+              "result": 21,
+              "options": [
+                16,
+                20,
+                21,
+                31
+              ]
+            }
+          },
+          {
+            "id": "F1-2",
+            "answer": 3,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "17 + 48 = 65",
+            "stimulus": {
+              "left": 17,
+              "operator": "+",
+              "right": 48,
+              "result": 65,
+              "options": [
+                70,
+                64,
+                63,
+                65
+              ]
+            }
+          },
+          {
+            "id": "F1-3",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "84 − 31 = 53",
+            "stimulus": {
+              "left": 84,
+              "operator": "-",
+              "right": 31,
+              "result": 53,
+              "options": [
+                54,
+                53,
+                58,
+                51
+              ]
+            }
+          },
+          {
+            "id": "F1-4",
+            "answer": 2,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "84 − 7 = 77",
+            "stimulus": {
+              "left": 84,
+              "operator": "-",
+              "right": 7,
+              "result": 77,
+              "options": [
+                82,
+                78,
+                77,
+                67
+              ]
+            }
+          },
+          {
+            "id": "F1-5",
+            "answer": 3,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "32 ÷ 4 = 8",
+            "stimulus": {
+              "left": 32,
+              "operator": "/",
+              "right": 4,
+              "result": 8,
+              "options": [
+                10,
+                3,
+                9,
+                8
+              ]
+            }
+          },
+          {
+            "id": "F1-6",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "18 + 25 = 43",
+            "stimulus": {
+              "left": 18,
+              "operator": "+",
+              "right": 25,
+              "result": 43,
+              "options": [
+                43,
+                33,
+                45,
+                53
+              ]
+            }
+          },
+          {
+            "id": "F1-7",
+            "answer": 2,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "10 + 7 = 17",
+            "stimulus": {
+              "left": 10,
+              "operator": "+",
+              "right": 7,
+              "result": 17,
+              "options": [
+                16,
+                27,
+                17,
+                12
+              ]
+            }
+          },
+          {
+            "id": "F1-8",
+            "answer": 3,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "49 ÷ 7 = 7",
+            "stimulus": {
+              "left": 49,
+              "operator": "/",
+              "right": 7,
+              "result": 7,
+              "options": [
+                9,
+                6,
+                12,
+                7
+              ]
+            }
+          },
+          {
+            "id": "F1-9",
+            "answer": 3,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "7 × 8 = 56",
+            "stimulus": {
+              "left": 7,
+              "operator": "*",
+              "right": 8,
+              "result": 56,
+              "options": [
+                46,
+                57,
+                55,
+                56
+              ]
+            }
+          },
+          {
+            "id": "F1-10",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "8 × 2 = 16",
+            "stimulus": {
+              "left": 8,
+              "operator": "*",
+              "right": 2,
+              "result": 16,
+              "options": [
+                16,
+                26,
+                14,
+                6
+              ]
+            }
+          }
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:12.241Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 6000,
+      "inputMode": "pointer",
+      "rngSeed": "fce9fc9099bf1c6fbfbc4bed16edef22"
+    },
+    {
+      "sessionId": "67576dae0387501f99585aed7a72f925",
+      "gameId": "F2",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "correct": 5,
+        "missed": 0,
+        "trials": [
+          {
+            "id": "F2-1",
+            "sequence": [
+              5,
+              5,
+              7
+            ],
+            "total": 17,
+            "options": [
+              15,
+              17,
+              20,
+              10
+            ],
+            "answer": 1,
+            "correct": true,
+            "rtMs": 0
+          },
+          {
+            "id": "F2-2",
+            "sequence": [
+              4,
+              2,
+              1,
+              2
+            ],
+            "total": 9,
+            "options": [
+              12,
+              5,
+              9,
+              7
+            ],
+            "answer": 2,
+            "correct": true,
+            "rtMs": 0
+          },
+          {
+            "id": "F2-3",
+            "sequence": [
+              3,
+              5,
+              2,
+              6,
+              2
+            ],
+            "total": 18,
+            "options": [
+              15,
+              18,
+              21,
+              19
+            ],
+            "answer": 1,
+            "correct": true,
+            "rtMs": 0
+          },
+          {
+            "id": "F2-4",
+            "sequence": [
+              6,
+              3,
+              9,
+              8,
+              6,
+              7
+            ],
+            "total": 39,
+            "options": [
+              42,
+              31,
+              38,
+              39
+            ],
+            "answer": 3,
+            "correct": true,
+            "rtMs": 0
+          },
+          {
+            "id": "F2-5",
+            "sequence": [
+              6,
+              1,
+              6,
+              6,
+              5,
+              4,
+              7
+            ],
+            "total": 35,
+            "options": [
+              31,
+              32,
+              33,
+              35
+            ],
+            "answer": 3,
+            "correct": true,
+            "rtMs": 0
+          }
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:12.321Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 25000,
+      "inputMode": "pointer",
+      "rngSeed": "38e8b6fc3e17b76d83f409b76902bb0e"
+    },
+    {
+      "sessionId": "36c0af1c87b451f5fd747f5f2c56602a",
+      "gameId": "F3",
+      "rulesVersion": "1",
+      "contentVersion": "1",
+      "outcome": "completed",
+      "score": 100,
+      "metrics": {
+        "correct": 8,
+        "missed": 0,
+        "meanCorrectMs": 100,
+        "trials": [
+          {
+            "id": "24-1119",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "不能：在每张牌恰好使用一次、只允许四则运算与括号的规则下，穷举无解（允许分数及负数中间结果）。",
+            "stimulus": {
+              "cards": [
+                1,
+                1,
+                1,
+                9
+              ],
+              "solvable": false,
+              "expression": null
+            }
+          },
+          {
+            "id": "24-1227",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "能：((7-1)*(2+2)) = 24",
+            "stimulus": {
+              "cards": [
+                1,
+                2,
+                2,
+                7
+              ],
+              "solvable": true,
+              "expression": "((7-1)*(2+2))"
+            }
+          },
+          {
+            "id": "24-2566",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "能：(6*((2*5)-6)) = 24",
+            "stimulus": {
+              "cards": [
+                2,
+                5,
+                6,
+                6
+              ],
+              "solvable": true,
+              "expression": "(6*((2*5)-6))"
+            }
+          },
+          {
+            "id": "24-4455",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "能：((5*5)-(4/4)) = 24",
+            "stimulus": {
+              "cards": [
+                4,
+                4,
+                5,
+                5
+              ],
+              "solvable": true,
+              "expression": "((5*5)-(4/4))"
+            }
+          },
+          {
+            "id": "24-5558",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "不能：在每张牌恰好使用一次、只允许四则运算与括号的规则下，穷举无解（允许分数及负数中间结果）。",
+            "stimulus": {
+              "cards": [
+                5,
+                5,
+                5,
+                8
+              ],
+              "solvable": false,
+              "expression": null
+            }
+          },
+          {
+            "id": "24-2247",
+            "answer": 0,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "能：((4*7)-(2+2)) = 24",
+            "stimulus": {
+              "cards": [
+                2,
+                2,
+                4,
+                7
+              ],
+              "solvable": true,
+              "expression": "((4*7)-(2+2))"
+            }
+          },
+          {
+            "id": "24-6999",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "不能：在每张牌恰好使用一次、只允许四则运算与括号的规则下，穷举无解（允许分数及负数中间结果）。",
+            "stimulus": {
+              "cards": [
+                6,
+                9,
+                9,
+                9
+              ],
+              "solvable": false,
+              "expression": null
+            }
+          },
+          {
+            "id": "24-1557",
+            "answer": 1,
+            "correct": true,
+            "rtMs": 100,
+            "explanation": "不能：在每张牌恰好使用一次、只允许四则运算与括号的规则下，穷举无解（允许分数及负数中间结果）。",
+            "stimulus": {
+              "cards": [
+                1,
+                5,
+                5,
+                7
+              ],
+              "solvable": false,
+              "expression": null
+            }
+          }
+        ]
+      },
+      "completedAt": "2026-11-23T03:37:12.397Z",
+      "localDay": "2026-11-23",
+      "utcOffsetMinutes": 480,
+      "durationMs": 4800,
+      "inputMode": "pointer",
+      "rngSeed": "6fd8bdf96cc9a693286d5b1a2e8a47e7"
+    }
+  ],
+  "fixture": {
+    "synthetic": true,
+    "note": "TEST DATA ONLY: dated copies of native-play records in launch() temporary profile; never a user browser.",
+    "records": [
+      {
+        "gameId": "A1",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-A1"
+      },
+      {
+        "gameId": "A2",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-A2"
+      },
+      {
+        "gameId": "A3",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-A3"
+      },
+      {
+        "gameId": "B1",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-B1"
+      },
+      {
+        "gameId": "B2",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-B2"
+      },
+      {
+        "gameId": "B3",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-B3"
+      },
+      {
+        "gameId": "C1",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-C1"
+      },
+      {
+        "gameId": "C2",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-C2"
+      },
+      {
+        "gameId": "C3",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-C3"
+      },
+      {
+        "gameId": "D1",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-D1"
+      },
+      {
+        "gameId": "D2",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-D2"
+      },
+      {
+        "gameId": "D3",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-D3"
+      },
+      {
+        "gameId": "E1",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-E1"
+      },
+      {
+        "gameId": "E2",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-E2"
+      },
+      {
+        "gameId": "E3",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-E3"
+      },
+      {
+        "gameId": "F1",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-F1"
+      },
+      {
+        "gameId": "F2",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-F2"
+      },
+      {
+        "gameId": "F3",
+        "day": "2026-10-14",
+        "score": 100,
+        "sessionId": "dashboard-fixture-0-F3"
+      },
+      {
+        "gameId": "A1",
+        "day": "2026-11-13",
+        "score": 100,
+        "sessionId": "dashboard-fixture-1-A1"
+      },
+      {
+        "gameId": "A2",
+        "day": "2026-11-13",
+        "score": 100,
+        "sessionId": "dashboard-fixture-1-A2"
+      },
+      {
+        "gameId": "A3",
+        "day": "2026-11-13",
+        "score": 100,
+        "sessionId": "dashboard-fixture-1-A3"
+      },
+      {
+        "gameId": "B1",
+        "day": "2026-11-13",
+        "score": 100,
+        "sessionId": "dashboard-fixture-1-B1"
+      },
+      {
+        "gameId": "B2",
+        "day": "2026-11-13",
+        "score": 100,
+        "sessionId": "dashboard-fixture-1-B2"
+      },
+      {
+        "gameId": "B3",
+        "day": "2026-11-13",
+        "score": 100,
+        "sessionId": "dashboard-fixture-1-B3"
+      },
+      {
+        "gameId": "C1",
+        "day": "2026-11-13",
+        "score": 100,
+        "sessionId": "dashboard-fixture-1-C1"
+      },
+      {
+        "gameId": "C2",
+        "day": "2026-11-13",
+        "score": 100,
+        "sessionId": "dashboard-fixture-1-C2"
+      },
+      {
+        "gameId": "C3",
+        "day": "2026-11-13",
+        "score": 100,
+        "sessionId": "dashboard-fixture-1-C3"
+      },
+      {
+        "gameId": "D1",
+        "day": "2026-11-13",
+        "score": 100,
+        "sessionId": "dashboard-fixture-1-D1"
+      },
+      {
+        "gameId": "D2",
+        "day": "2026-11-13",
+        "score": 100,
+        "sessionId": "dashboard-fixture-1-D2"
+      },
+      {
+        "gameId": "D3",
+        "day": "2026-11-13",
+        "score": 100,
+        "sessionId": "dashboard-fixture-1-D3"
+      },
+      {
+        "gameId": "E1",
+        "day": "2026-11-13",
+        "score": 100,
+        "sessionId": "dashboard-fixture-1-E1"
+      },
+      {
+        "gameId": "E2",
+        "day": "2026-11-13",
+        "score": 0,
+        "sessionId": "dashboard-fixture-1-E2"
+      },
+      {
+        "gameId": "E3",
+        "day": "2026-11-13",
+        "score": 100,
+        "sessionId": "dashboard-fixture-1-E3"
+      },
+      {
+        "gameId": "F1",
+        "day": "2026-11-13",
+        "score": 100,
+        "sessionId": "dashboard-fixture-1-F1"
+      },
+      {
+        "gameId": "F2",
+        "day": "2026-11-13",
+        "score": 100,
+        "sessionId": "dashboard-fixture-1-F2"
+      },
+      {
+        "gameId": "F3",
+        "day": "2026-11-13",
+        "score": 100,
+        "sessionId": "dashboard-fixture-1-F3"
+      },
+      {
+        "gameId": "A1",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-A1"
+      },
+      {
+        "gameId": "A2",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-A2"
+      },
+      {
+        "gameId": "A3",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-A3"
+      },
+      {
+        "gameId": "B1",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-B1"
+      },
+      {
+        "gameId": "B2",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-B2"
+      },
+      {
+        "gameId": "B3",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-B3"
+      },
+      {
+        "gameId": "C1",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-C1"
+      },
+      {
+        "gameId": "C2",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-C2"
+      },
+      {
+        "gameId": "C3",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-C3"
+      },
+      {
+        "gameId": "D1",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-D1"
+      },
+      {
+        "gameId": "D2",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-D2"
+      },
+      {
+        "gameId": "D3",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-D3"
+      },
+      {
+        "gameId": "E1",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-E1"
+      },
+      {
+        "gameId": "E2",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-E2"
+      },
+      {
+        "gameId": "E3",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-E3"
+      },
+      {
+        "gameId": "F1",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-F1"
+      },
+      {
+        "gameId": "F2",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-F2"
+      },
+      {
+        "gameId": "F3",
+        "day": "2026-11-22",
+        "score": 100,
+        "sessionId": "dashboard-fixture-2-F3"
+      }
+    ],
+    "portrait": {
+      "games": {
+        "A1": {
+          "score": 100,
+          "samples": 3
+        },
+        "A2": {
+          "score": 100,
+          "samples": 3
+        },
+        "A3": {
+          "score": 100,
+          "samples": 3
+        },
+        "B1": {
+          "score": 100,
+          "samples": 3
+        },
+        "B2": {
+          "score": 100,
+          "samples": 3
+        },
+        "B3": {
+          "score": 100,
+          "samples": 3
+        },
+        "C1": {
+          "score": 100,
+          "samples": 3
+        },
+        "C2": {
+          "score": 100,
+          "samples": 3
+        },
+        "C3": {
+          "score": 100,
+          "samples": 3
+        },
+        "D1": {
+          "score": 100,
+          "samples": 3
+        },
+        "D2": {
+          "score": 100,
+          "samples": 3
+        },
+        "D3": {
+          "score": 100,
+          "samples": 3
+        },
+        "E1": {
+          "score": 100,
+          "samples": 3
+        },
+        "E2": {
+          "score": 66.66666666666667,
+          "samples": 3
+        },
+        "E3": {
+          "score": 100,
+          "samples": 3
+        },
+        "F1": {
+          "score": 100,
+          "samples": 3
+        },
+        "F2": {
+          "score": 100,
+          "samples": 3
+        },
+        "F3": {
+          "score": 100,
+          "samples": 3
+        }
+      },
+      "modules": [
+        {
+          "id": "A",
+          "coverage": 3,
+          "score": 100,
+          "complete": true
+        },
+        {
+          "id": "B",
+          "coverage": 3,
+          "score": 100,
+          "complete": true
+        },
+        {
+          "id": "C",
+          "coverage": 3,
+          "score": 100,
+          "complete": true
+        },
+        {
+          "id": "D",
+          "coverage": 3,
+          "score": 100,
+          "complete": true
+        },
+        {
+          "id": "E",
+          "coverage": 3,
+          "score": 88.8888888888889,
+          "complete": true
+        },
+        {
+          "id": "F",
+          "coverage": 3,
+          "score": 100,
+          "complete": true
+        }
+      ],
+      "coverage": 18,
+      "score": 98.14814814814815,
+      "rank": "黑洞"
+    },
+    "timeline": [
+      {
+        "day": "2026-10-14",
+        "score": 100,
+        "coverage": 18
+      },
+      {
+        "day": "2026-11-13",
+        "score": 97.22222222222221,
+        "coverage": 18
+      },
+      {
+        "day": "2026-11-22",
+        "score": 98.14814814814815,
+        "coverage": 18
+      }
+    ]
+  },
+  "browser": "Chrome/157.0.8103.80",
+  "profile": "C:\\Users\\15247\\AppData\\Local\\Temp\\mindorbit-chrome-5f36aE",
+  "consoleErrors": [],
+  "requests": [
+    "http://127.0.0.1:4173/",
+    "http://127.0.0.1:4173/css/app.css",
+    "http://127.0.0.1:4173/js/core/random.js",
+    "http://127.0.0.1:4173/js/data/catalog.js",
+    "http://127.0.0.1:4173/js/core/scoring.js",
+    "http://127.0.0.1:4173/js/core/storage.js",
+    "http://127.0.0.1:4173/js/core/ui.js",
+    "http://127.0.0.1:4173/js/core/game-host.js",
+    "http://127.0.0.1:4173/js/core/router.js",
+    "http://127.0.0.1:4173/js/data/questions.js",
+    "http://127.0.0.1:4173/js/data/stimuli.js",
+    "http://127.0.0.1:4173/js/data/twenty-four.js",
+    "http://127.0.0.1:4173/js/games/memory.js",
+    "http://127.0.0.1:4173/js/games/imagination.js",
+    "http://127.0.0.1:4173/js/games/logic.js",
+    "http://127.0.0.1:4173/js/games/reaction.js",
+    "http://127.0.0.1:4173/js/games/attention.js",
+    "http://127.0.0.1:4173/js/games/calculation.js",
+    "http://127.0.0.1:4173/js/app.js",
+    "http://127.0.0.1:4173/assets/icons/brain.svg",
+    "http://127.0.0.1:4173/assets/icons/grid-2x2.svg",
+    "http://127.0.0.1:4173/assets/icons/chart-no-axes-combined.svg",
+    "http://127.0.0.1:4173/assets/icons/settings-2.svg",
+    "http://127.0.0.1:4173/assets/illustrations/meditation.svg",
+    "http://127.0.0.1:4173/assets/illustrations/favorites.svg",
+    "http://127.0.0.1:4173/assets/illustrations/A1.svg",
+    "http://127.0.0.1:4173/assets/illustrations/B1.svg",
+    "http://127.0.0.1:4173/assets/illustrations/C1.svg",
+    "http://127.0.0.1:4173/assets/illustrations/D1.svg",
+    "http://127.0.0.1:4173/assets/illustrations/E1.svg",
+    "http://127.0.0.1:4173/assets/illustrations/F1.svg",
+    "http://127.0.0.1:4173/assets/favicon.svg",
+    "http://127.0.0.1:4173/assets/illustrations/A2.svg",
+    "http://127.0.0.1:4173/assets/illustrations/A3.svg",
+    "http://127.0.0.1:4173/assets/illustrations/B2.svg",
+    "http://127.0.0.1:4173/assets/illustrations/B3.svg",
+    "http://127.0.0.1:4173/assets/illustrations/C2.svg",
+    "http://127.0.0.1:4173/assets/illustrations/C3.svg",
+    "http://127.0.0.1:4173/assets/illustrations/D2.svg",
+    "http://127.0.0.1:4173/assets/illustrations/D3.svg",
+    "http://127.0.0.1:4173/assets/illustrations/E2.svg",
+    "http://127.0.0.1:4173/assets/illustrations/E3.svg",
+    "http://127.0.0.1:4173/assets/illustrations/F2.svg",
+    "http://127.0.0.1:4173/assets/illustrations/F3.svg",
+    "http://127.0.0.1:4173/assets/icons/orbit.svg",
+    "http://127.0.0.1:4173/assets/icons/puzzle.svg",
+    "http://127.0.0.1:4173/assets/icons/zap.svg",
+    "http://127.0.0.1:4173/assets/icons/focus.svg",
+    "http://127.0.0.1:4173/assets/icons/calculator.svg",
+    "http://127.0.0.1:4173/assets/icons/check.svg"
+  ],
+  "httpErrors": [],
+  "externalRequests": [],
+  "finishedAt": "2026-11-23T03:37:14.650Z"
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="e3-title">
+  <title id="e3-title">视觉搜索：找到朝向不同的那条小鱼</title>
+  <g fill="#C6DFEF" stroke="#96BCD4" stroke-width="2">
+    <path d="M42 38c10 0 17 8 17 12s-7 12-17 12c-7 0-12-4-15-8l-8 6V40l8 6c3-4 8-8 15-8Z"/>
+    <path d="M92 38c10 0 17 8 17 12s-7 12-17 12c-7 0-12-4-15-8l-8 6V40l8 6c3-4 8-8 15-8Z"/>
+    <path d="M142 38c10 0 17 8 17 12s-7 12-17 12c-7 0-12-4-15-8l-8 6V40l8 6c3-4 8-8 15-8Z"/>
+    <path d="M42 84c10 0 17 8 17 12s-7 12-17 12c-7 0-12-4-15-8l-8 6V86l8 6c3-4 8-8 15-8Z"/>
+    <path d="M142 84c10 0 17 8 17 12s-7 12-17 12c-7 0-12-4-15-8l-8 6V86l8 6c3-4 8-8 15-8Z"/>
+    <g fill="#6C97B6" stroke="none"><circle cx="49" cy="48" r="2"/><circle cx="99" cy="48" r="2"/><circle cx="149" cy="48" r="2"/><circle cx="49" cy="94" r="2"/><circle cx="149" cy="94" r="2"/></g>
+  </g>
+  <g>
+    <path d="M87 84c-10 0-17 8-17 12s7 12 17 12c7 0 12-4 15-8l8 6V86l-8 6c-3-4-8-8-15-8Z" fill="#F4D5B4" stroke="#D5AE83" stroke-width="2"/>
+    <circle cx="80" cy="94" r="2" fill="#AF865B"/>
+  </g>
+  <path d="M76 72h-8a5 5 0 0 0-5 5v7m40-12h8a5 5 0 0 1 5 5v7m0 24v7a5 5 0 0 1-5 5h-8m-27 0h-8a5 5 0 0 1-5-5v-7" stroke="#9CC9BE" stroke-width="3"/>
+  <g fill="#D3E9EF"><circle cx="34" cy="20" r="3"/><circle cx="127" cy="20" r="4"/><circle cx="140" cy="119" r="3"/></g>
+</svg>

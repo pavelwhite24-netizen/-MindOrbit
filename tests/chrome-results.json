@@ -1,6 +1,6 @@
 {
   "browser": "Chrome/157.0.8103.80",
-  "date": "2026-11-22T12:44:38.131Z",
+  "date": "2026-11-23T03:26:46.201Z",
   "golden": [
     {
       "id": "A1",
@@ -59,7 +59,7 @@
     {
       "id": "D1",
       "score": 100,
-      "durationMs": 15650,
+      "durationMs": 18030,
       "inputMode": "pointer"
     },
     {
@@ -170,7 +170,7 @@
       "id": "D1",
       "score": 0,
       "outcome": "attempts_exhausted",
-      "durationMs": 53114
+      "durationMs": 51585
     },
     {
       "id": "D2",

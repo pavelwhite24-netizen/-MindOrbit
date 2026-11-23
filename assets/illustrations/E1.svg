@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="e1-title">
+  <title id="e1-title">N-Back：与两步之前的数字相遇</title>
+  <g>
+    <rect x="18" y="95" width="144" height="18" rx="9" fill="#E1EDF6"/>
+    <path d="M32 104h116m-5-4 5 4-5 4" stroke="#AAC8DC" stroke-width="2.5"/>
+  </g>
+  <g>
+    <rect x="25" y="51" width="37" height="46" rx="12" fill="#BEDDD5" stroke="#8EBAB0" stroke-width="2.5"/>
+    <text x="43.5" y="83" text-anchor="middle" fill="#558B82" font-family="Arial, sans-serif" font-size="29" font-weight="700">4</text>
+  </g>
+  <g>
+    <rect x="72" y="51" width="37" height="46" rx="12" fill="#E4EEF7" stroke="#B6D0E2" stroke-width="2.5"/>
+    <text x="90.5" y="83" text-anchor="middle" fill="#829FB6" font-family="Arial, sans-serif" font-size="29" font-weight="700">7</text>
+  </g>
+  <g>
+    <rect x="119" y="51" width="37" height="46" rx="12" fill="#BEDDD5" stroke="#8EBAB0" stroke-width="2.5"/>
+    <text x="137.5" y="83" text-anchor="middle" fill="#558B82" font-family="Arial, sans-serif" font-size="29" font-weight="700">4</text>
+  </g>
+  <g>
+    <path d="M137 42c-11-29-82-29-93 0m-5-11 4 12 11-5" stroke="#D3A2B7" stroke-width="2.5"/>
+    <rect x="74" y="13" width="32" height="21" rx="10.5" fill="#F8E2EB"/>
+    <text x="90" y="28" text-anchor="middle" fill="#B8829B" font-family="Arial, sans-serif" font-size="13" font-weight="700">−2</text>
+  </g>
+  <g><circle cx="138" cy="115" r="12" fill="#F5D9B9"/><path d="m133 115 4 4 7-8" stroke="#AE8A60" stroke-width="2.5"/></g>
+</svg>

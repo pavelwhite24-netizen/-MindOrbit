@@ -41,5 +41,18 @@
     const score = coverage === 18 ? average(modules.map(module => module.score)) : null;
     return { games, modules, coverage, score, rank: rank(score) };
   };
-  M.scoring = { clip, normalize, speed, game, rank, ranks, portrait, average, denominators };
+  const timeline = data => {
+    const records = Object.values(data.games).flatMap(value => value.history)
+      .filter(record => M.games[record.gameId]?.rulesVersion === record.rulesVersion)
+      .sort((a,b) => Date.parse(a.completedAt) - Date.parse(b.completedAt));
+    const snapshot = { games: {} }, days = new Map();
+    for (const record of records) {
+      const state = snapshot.games[record.gameId] ||= { history: [] };
+      state.history.push(record); state.history = state.history.slice(-5);
+      const value = portrait(snapshot);
+      days.set(record.localDay,{ day: record.localDay, score: value.score, coverage: value.coverage });
+    }
+    return [...days.values()].sort((a,b) => a.day.localeCompare(b.day));
+  };
+  M.scoring = { clip, normalize, speed, game, rank, ranks, portrait, timeline, average, denominators };
 })();

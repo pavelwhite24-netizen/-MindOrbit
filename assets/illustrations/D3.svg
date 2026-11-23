@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="d3-title">
+  <title id="d3-title">快速点击：及时点中九宫格里的光点</title>
+  <g transform="rotate(-4 82 68)">
+    <rect x="31" y="17" width="105" height="105" rx="23" fill="#F0F7FC" stroke="#AECFE3" stroke-width="2.5"/>
+    <g fill="#D9EAF7"><rect x="43" y="29" width="23" height="23" rx="7"/><rect x="72" y="29" width="23" height="23" rx="7"/><rect x="101" y="29" width="23" height="23" rx="7"/><rect x="43" y="58" width="23" height="23" rx="7"/><rect x="72" y="58" width="23" height="23" rx="7"/><rect x="101" y="58" width="23" height="23" rx="7"/><rect x="43" y="87" width="23" height="23" rx="7"/><rect x="72" y="87" width="23" height="23" rx="7"/><rect x="101" y="87" width="23" height="23" rx="7"/></g>
+    <rect x="101" y="58" width="23" height="23" rx="7" fill="#F5D0AF" stroke="#D9B089" stroke-width="2"/>
+    <circle cx="112.5" cy="69.5" r="5" fill="#FFF7E8"/>
+  </g>
+  <g>
+    <path d="m115 80 5 41a3 3 0 0 0 5 2l8-9 9 14a3 3 0 0 0 4 1l5-3a3 3 0 0 0 1-4l-9-14 13-3a3 3 0 0 0 1-5l-37-23a3 3 0 0 0-5 3Z" fill="#BBDCD6" stroke="#80AEA8" stroke-width="2.5"/>
+    <path d="m123 90 3 17" stroke="#ECF7F1" stroke-width="3"/>
+  </g>
+  <path d="m140 56 7-6m-4 18 11-1M106 47v-9" stroke="#E0B183" stroke-width="2.5"/>
+  <path d="M20 78v9m-4.5-4.5h9" stroke="#D5A8BD" stroke-width="2.5"/>
+</svg>

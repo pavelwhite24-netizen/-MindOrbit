@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="d1-title">
+  <title id="d1-title">经典反应：等待亮灯再按下</title>
+  <g>
+    <path d="M57 101v16m-18 4h37" stroke="#B2CDDF" stroke-width="6"/>
+    <rect x="33" y="17" width="48" height="88" rx="22" fill="#E5F0F8" stroke="#A6C5DA" stroke-width="2.5"/>
+    <circle cx="57" cy="39" r="12" fill="#E8C7D3"/>
+    <circle cx="57" cy="79" r="17" fill="#D6EEE6"/>
+    <circle cx="57" cy="79" r="12" fill="#9ACDBE" stroke="#80B5A5" stroke-width="2"/>
+    <path d="m52 78 4 4 7-8" stroke="#F5FCF8" stroke-width="2.5"/>
+  </g>
+  <g>
+    <path d="M108 81h36c10 0 18 8 18 18v10c0 9-9 16-36 16s-36-7-36-16V99c0-10 8-18 18-18Z" fill="#B7D5E9" stroke="#95BAD4" stroke-width="2.5"/>
+    <ellipse cx="126" cy="94" rx="36" ry="17" fill="#E1EFF9" stroke="#95BAD4" stroke-width="2.5"/>
+    <ellipse cx="126" cy="87" rx="25" ry="13" fill="#F4CFAD" stroke="#D9AF85" stroke-width="2.5"/>
+    <path d="M112 84c5-4 13-5 21-3" stroke="#FFF0DC" stroke-width="3"/>
+  </g>
+  <g stroke="#D5A6BA" stroke-width="3"><path d="M126 43v14m-19-10 7 12m31-12-7 12"/></g>
+  <path d="M16 74h8m-4-15 7 5m-7 30 7-5" stroke="#9AC8BE" stroke-width="2.5"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="b1-title">
+  <title id="b1-title">空间旋转：转动后依然相同的积木</title>
+  <g transform="rotate(-8 48 70)">
+    <path d="M30 40a8 8 0 0 1 8-8h9a8 8 0 0 1 8 8v42h17a8 8 0 0 1 8 8v9a8 8 0 0 1-8 8H38a8 8 0 0 1-8-8Z" fill="#BCD9EF" stroke="#8EB7D2" stroke-width="2.5"/>
+    <path d="M38 44v46a8 8 0 0 0 8 8h21" stroke="#E9F4FC" stroke-width="4"/>
+    <circle cx="43" cy="47" r="4" fill="#E9B9CC"/>
+  </g>
+  <g transform="rotate(82 48 70) translate(0 -76)">
+    <path d="M30 40a8 8 0 0 1 8-8h9a8 8 0 0 1 8 8v42h17a8 8 0 0 1 8 8v9a8 8 0 0 1-8 8H38a8 8 0 0 1-8-8Z" fill="#BBDDD6" stroke="#8CBDB5" stroke-width="2.5"/>
+    <path d="M38 44v46a8 8 0 0 0 8 8h21" stroke="#E8F6F0" stroke-width="4"/>
+    <circle cx="43" cy="47" r="4" fill="#E9B9CC"/>
+  </g>
+  <g>
+    <circle cx="88" cy="41" r="18" fill="#FBE8D2"/>
+    <path d="M79 44a10 10 0 1 1 18-4m-6-3 7 4 2-8" stroke="#CCA374" stroke-width="2.5"/>
+  </g>
+  <path d="M80 119h22" stroke="#D2E5F0" stroke-width="4"/>
+  <path d="M24 21v7m-3.5-3.5h7" stroke="#B8DAD7" stroke-width="2.5"/>
+</svg>
