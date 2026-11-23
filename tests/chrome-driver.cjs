@@ -1,0 +1,42 @@
+'use strict';
+const {spawn}=require('node:child_process');
+const fs=require('node:fs');
+const os=require('node:os');
+const path=require('node:path');
+async function launch(){
+  const profile=fs.mkdtempSync(path.join(os.tmpdir(),'mindorbit-chrome-'));
+  const process=spawn('C:/Program Files/Google/Chrome/Application/chrome.exe',['--remote-debugging-port=0','--remote-debugging-address=127.0.0.1','--user-data-dir='+profile,'--no-first-run','--no-default-browser-check','--window-size=1365,960','about:blank'],{stdio:['ignore','ignore','pipe']});
+  const address=await new Promise((resolve,reject)=>{let output='';const timeout=setTimeout(()=>reject(new Error('Chrome startup timeout: '+output)),25000);process.once('error',reject);process.stderr.on('data',chunk=>{output+=chunk;const match=output.match(/DevTools listening on (ws:\/\/[^\s]+)/);if(match){clearTimeout(timeout);resolve(match[1]);}});});
+  const port=new URL(address).port;
+  const version=await(await fetch('http://127.0.0.1:'+port+'/json/version')).json();
+  const targets=await(await fetch('http://127.0.0.1:'+port+'/json/list')).json();
+  const target=targets.find(target=>target.type==='page');
+  const socket=new WebSocket(target.webSocketDebuggerUrl);
+  await new Promise((resolve,reject)=>{socket.addEventListener('open',resolve,{once:true});socket.addEventListener('error',reject,{once:true});});
+  let serial=0;const pending=new Map(),listeners=new Map(),errors=[],requests=[];
+  socket.addEventListener('message',event=>{const message=JSON.parse(event.data);if(message.id){const callback=pending.get(message.id);if(callback){pending.delete(message.id);clearTimeout(callback.timer);if(message.error)callback.reject(new Error(JSON.stringify(message.error)));else callback.resolve(message.result);}}else{for(const listener of listeners.get(message.method)||[])listener(message.params);}});
+  const send=(method,params={})=>new Promise((resolve,reject)=>{const id=++serial;const timer=setTimeout(()=>{pending.delete(id);reject(new Error('CDP timeout '+method));},50000);pending.set(id,{resolve,reject,timer});socket.send(JSON.stringify({id,method,params}));});
+  const on=(name,callback)=>{if(!listeners.has(name))listeners.set(name,new Set());listeners.get(name).add(callback);};
+  const once=name=>new Promise((resolve,reject)=>{const timer=setTimeout(()=>{listeners.get(name)?.delete(handler);reject(new Error('Browser event timed out: '+name));},15000);const handler=value=>{clearTimeout(timer);listeners.get(name).delete(handler);resolve(value);};on(name,handler);});
+  on('Runtime.exceptionThrown',event=>errors.push(event.exceptionDetails.exception?.description||event.exceptionDetails.text));
+  on('Runtime.consoleAPICalled',event=>{if(event.type==='error')errors.push(event.args.map(arg=>arg.description||arg.value).join(' '));});
+  on('Network.requestWillBeSent',event=>requests.push(event.request.url));
+  await send('Page.enable');await send('Runtime.enable');await send('Network.enable');
+  const evaluate=async expression=>{const result=await send('Runtime.evaluate',{expression,awaitPromise:true,returnByValue:true});if(result.exceptionDetails)throw new Error(result.exceptionDetails.exception?.description||result.exceptionDetails.text);return result.result.value;};
+  const navigate=async url=>{const ready=once('Page.loadEventFired');const result=await send('Page.navigate',{url});if(result.errorText)throw new Error(result.errorText);if(!result.loaderId)await send('Page.reload');await ready;return evaluate('document.title');};
+  const click=async selector=>{const point=await evaluate(`(()=>{const node=document.querySelector(${JSON.stringify(selector)});if(!node)throw new Error('Missing element '+${JSON.stringify(selector)});if(node.disabled)throw new Error('Disabled element '+${JSON.stringify(selector)});node.scrollIntoView({block:'center'});const r=node.getBoundingClientRect();return{x:r.x+r.width/2,y:r.y+r.height/2};})()`);await send('Input.dispatchMouseEvent',{type:'mousePressed',button:'left',clickCount:1,...point});await send('Input.dispatchMouseEvent',{type:'mouseReleased',button:'left',clickCount:1,...point});};
+  const screenshot=async filename=>{const result=await send('Page.captureScreenshot',{format:'png',captureBeyondViewport:false});fs.writeFileSync(filename,Buffer.from(result.data,'base64'));};
+  const key=async(key,code,windowsVirtualKeyCode)=>{await send('Input.dispatchKeyEvent',{type:'keyDown',key,code,windowsVirtualKeyCode,text:key==='Enter'?'\r':key.length===1?key:''});await send('Input.dispatchKeyEvent',{type:'keyUp',key,code,windowsVirtualKeyCode});};
+  const waitFor=async(expression,timeout=10000)=>{const end=Date.now()+timeout;do{const value=await evaluate(expression);if(value)return value;await new Promise(resolve=>setTimeout(resolve,25));}while(Date.now()<end);throw new Error('Browser condition timed out: '+expression);};
+  return{send,on,once,evaluate,navigate,click,screenshot,key,waitFor,targetId:target.id,errors,requests,version,profile,async close(){try{await send('Browser.close');}catch{}socket.close();}};
+}
+const clockScript=`(()=>{
+ let now=0,next=0;const timers=new Map();const nativeNow=Date.now();
+ Object.defineProperty(performance,'now',{value:()=>now,configurable:true});
+ const set=(callback,delay,args,repeat)=>{const id=++next;timers.set(id,{callback,at:now+Math.max(0,Number(delay)||0),args,repeat});return id;};
+ window.setTimeout=(fn,delay,...args)=>set(fn,delay,args,0);window.clearTimeout=id=>timers.delete(id);
+ window.setInterval=(fn,delay,...args)=>set(fn,delay,args,Math.max(1,delay));window.clearInterval=window.clearTimeout;
+ window.requestAnimationFrame=fn=>set(()=>fn(now),16,[],0);window.cancelAnimationFrame=window.clearTimeout;
+ window.testClock={get now(){return now},advance(ms){const end=now+ms;let loops=0;while(true){let chosen;for(const [id,timer]of timers)if(timer.at<=end&&(!chosen||timer.at<chosen[1].at))chosen=[id,timer];if(!chosen)break;if(++loops>50000)throw new Error('Timer loop');const[id,timer]=chosen;now=timer.at;timers.delete(id);if(timer.repeat)timers.set(id,{...timer,at:now+timer.repeat});timer.callback(...timer.args);}now=end;},get timers(){return timers.size;},jump(ms){now+=ms;}};
+})();`;
+module.exports={launch,clockScript};

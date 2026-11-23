@@ -1,0 +1,218 @@
+MindOrbit third-party acquisition and reuse notices
+Verification date: 2026-11-22
+
+Scope
+Only the assets, preserved upstream sources, developer-only 24-point generator,
+and generated F3 data described below are covered here. No upstream application
+was run. No remote writes, login, package installation or system configuration
+changes were needed. Public GitHub files were retrieved read-only through the
+portable GitHub CLI using HTTPS raw-file endpoints at the exact commits below.
+No CDN, remote font, image hotlink or third-party runtime loader is required.
+
+All three COMPLETE upstream root licenses are shipped in vendor/. Do not omit
+those files when redistributing this package. In particular, Lucide's root
+license retains its ISC text, entire Feather inheritance list, and MIT text.
+Acquired file SHA-256 fingerprints are fixed in tests/twenty-four.test.cjs and
+checked against the original downloaded bytes. No claim of whole-repository
+security review is made. Runtime integration is described per dependency below.
+
+1. Fraction.js -- exact developer-time arithmetic for F3
+Repository: https://github.com/rawify/Fraction.js
+Commit: 9aa0f355e5d6c25d10bce7a7ab25a3a4bd074942
+package.json version at that commit: 5.3.4 (not a separately verified tag)
+Author / license: Copyright (c) 2025 Robert Eisele; MIT.
+Status: integrated and verified in the developer-only generator.
+
+Actual source files read:
+https://github.com/rawify/Fraction.js/blob/9aa0f355e5d6c25d10bce7a7ab25a3a4bd074942/dist/fraction.js
+https://github.com/rawify/Fraction.js/blob/9aa0f355e5d6c25d10bce7a7ab25a3a4bd074942/LICENSE
+https://github.com/rawify/Fraction.js/blob/9aa0f355e5d6c25d10bce7a7ab25a3a4bd074942/package.json
+
+Local distribution: vendor/fraction.cjs
+Complete license: vendor/fraction-LICENSE.txt
+Modifications: source bytes unchanged; dist/fraction.js renamed to fraction.cjs
+so Node always treats the pinned distribution as CommonJS. package.json was
+read for verification, not vendored. No browser/UMD distribution is included.
+
+Exact interface used:
+  const Fraction = require('../vendor/fraction.cjs');
+  const value = new Fraction(BigInt(card));
+  value.add(other), value.sub(other), value.mul(other), value.div(other)
+  value.equals(24n)
+Fields s (sign), n (nonnegative numerator), d (positive denominator) are BigInt.
+The two-argument constructor new Fraction(1n, 3n) also works. toFraction() gives
+an exact fraction string. Arithmetic returns reduced fractions. Do not use
+valueOf(), floating-point inputs, approximate simplify(), or numeric coercion
+for F3 decisions. The upstream Number fallback at lines 32-33 is deliberately
+blocked by a native-BigInt guard before require() in tools/generate-24.cjs.
+
+Actual reuse: tools/generate-24.cjs calls this library for all solver arithmetic
+and exact equality. Pair reduction, expression construction, enumeration and
+data formatting are MindOrbit code, not supplied by Fraction.js. Every merge
+consumes two disjoint subexpressions; addition/multiplication need one order,
+subtraction/division retain both orders, and zero divisors are skipped. Failed
+states and equal results are deduplicated using reduced rational values only.
+
+Generated output: js/data/twenty-four.js
+Classic-script globals: window.MindOrbit.twentyFour and
+window.MindOrbit.twentyFourVersion = '1'. The existing namespace is preserved.
+Records: {id, cards, solvable, expression}; IDs run from 24-1111 to 24-9999.
+All 495 nondecreasing four-card multisets in 1..9 are included exactly once:
+404 solvable with one fully parenthesized legal witness each; 91 unsolvable
+with expression null. Only binary +, -, *, / and parentheses occur in witnesses.
+The generated script contains no runtime Fraction.js or native-BigInt dependency.
+
+Verification: the Node test has its own signed BigInt rational arithmetic and
+subset-mask dynamic programming, independent of Fraction.js and the pair solver.
+It recomputes every label. A strict recursive parser (no eval) checks all 404
+witnesses, exact result 24/1, exactly three binary operators and the original
+four-card multiset including multiplicities. Tests also cover prohibited syntax,
+zero division, negative/fractional intermediates, repeated/reordered cards,
+large integers, missing/fake BigInt, namespace preservation, exhaustive coverage
+and byte-identical regeneration.
+
+2. Lucide -- local static navigation/module/status icons
+Repository: https://github.com/lucide-icons/lucide
+Commit: e00b2b26350fe4dfb6f5273aa366f94974430903
+Author / license: Copyright (c) 2026 Lucide Icons and Contributors; ISC.
+Feather-derived icons additionally carry the MIT statement and
+Copyright (c) 2013-present Cole Bemis, as specified by the root license.
+Status: acquired and verified; local icons integrated in navigation and module cards.
+Unused selected icons remain available locally; no icon JavaScript runtime is loaded.
+
+Complete root license:
+https://github.com/lucide-icons/lucide/blob/e00b2b26350fe4dfb6f5273aa366f94974430903/LICENSE
+Local: vendor/lucide-LICENSE.txt (entire file, unchanged).
+
+Selected files and intended roles (all are unchanged local static SVGs):
+assets/icons/brain.svg -- memory/module navigation
+assets/icons/orbit.svg -- MindOrbit/home navigation
+assets/icons/grid-2x2.svg -- grid/spatial tasks
+assets/icons/chart-no-axes-combined.svg -- progress/records
+assets/icons/settings-2.svg -- settings
+assets/icons/arrow-right.svg -- forward/start action
+assets/icons/chevron-left.svg -- back action
+assets/icons/zap.svg -- reaction module
+assets/icons/focus.svg -- attention module
+assets/icons/calculator.svg -- calculation module
+assets/icons/puzzle.svg -- logic module
+assets/icons/clock.svg -- timing status
+assets/icons/check.svg -- correct/success status
+assets/icons/x.svg -- incorrect/close status
+
+Exact sources, individually retrieved and inspected:
+https://github.com/lucide-icons/lucide/blob/e00b2b26350fe4dfb6f5273aa366f94974430903/icons/brain.svg
+https://github.com/lucide-icons/lucide/blob/e00b2b26350fe4dfb6f5273aa366f94974430903/icons/orbit.svg
+https://github.com/lucide-icons/lucide/blob/e00b2b26350fe4dfb6f5273aa366f94974430903/icons/grid-2x2.svg
+https://github.com/lucide-icons/lucide/blob/e00b2b26350fe4dfb6f5273aa366f94974430903/icons/chart-no-axes-combined.svg
+https://github.com/lucide-icons/lucide/blob/e00b2b26350fe4dfb6f5273aa366f94974430903/icons/settings-2.svg
+https://github.com/lucide-icons/lucide/blob/e00b2b26350fe4dfb6f5273aa366f94974430903/icons/arrow-right.svg
+https://github.com/lucide-icons/lucide/blob/e00b2b26350fe4dfb6f5273aa366f94974430903/icons/chevron-left.svg
+https://github.com/lucide-icons/lucide/blob/e00b2b26350fe4dfb6f5273aa366f94974430903/icons/zap.svg
+https://github.com/lucide-icons/lucide/blob/e00b2b26350fe4dfb6f5273aa366f94974430903/icons/focus.svg
+https://github.com/lucide-icons/lucide/blob/e00b2b26350fe4dfb6f5273aa366f94974430903/icons/calculator.svg
+https://github.com/lucide-icons/lucide/blob/e00b2b26350fe4dfb6f5273aa366f94974430903/icons/puzzle.svg
+https://github.com/lucide-icons/lucide/blob/e00b2b26350fe4dfb6f5273aa366f94974430903/icons/clock.svg
+https://github.com/lucide-icons/lucide/blob/e00b2b26350fe4dfb6f5273aa366f94974430903/icons/check.svg
+https://github.com/lucide-icons/lucide/blob/e00b2b26350fe4dfb6f5273aa366f94974430903/icons/x.svg
+
+Selected names explicitly present in the Feather inheritance list:
+arrow-right, chevron-left, clock, check, x.
+Do not label the whole selection as ISC-only.
+
+Modifications: none; no crop, recolor, optimization, or sanitization rewrite was
+necessary. Every file contains only svg/path/circle/rect/line static geometry
+and standard geometry/presentation attributes. There are no scripts, events,
+foreignObject, style, animation, image, use/href, URL paint servers or external
+resource references. The xmlns="http://www.w3.org/2000/svg" value identifies the
+SVG namespace; it is not a network request. currentColor is preserved. The
+allowlisted tags/attributes, forbidden active content and original bytes are
+checked by tests/twenty-four.test.cjs. Host accessibility labels and any inline
+embedding decisions remain application work; no icon runtime was imported.
+
+3. Memory -- reviewed candidate; preserved reference source
+Repository: https://github.com/Sahrarara/Memory
+Commit: 3855999cea4fc68b574d7d8994eba5daa88b6b54
+Author / license: Copyright (c) 2021 Sarah Ellinger; MIT.
+Status: reviewed reference only, NOT executed or loaded at runtime.
+A3 is an independent implementation in js/games/memory.js, not a copied port.
+The upstream DOM/global state, timing and scoring do not fit the shared host;
+its small matching primitive did not justify importing those dependencies.
+The unchanged source and MIT license are retained for provenance.
+
+Actual source files read:
+https://github.com/Sahrarara/Memory/blob/3855999cea4fc68b574d7d8994eba5daa88b6b54/scripts/memory.js
+https://github.com/Sahrarara/Memory/blob/3855999cea4fc68b574d7d8994eba5daa88b6b54/LICENSE
+
+Local source: vendor/memory-original.js (unchanged original bytes, path renamed).
+Complete license: vendor/memory-LICENSE.txt (unchanged).
+Do not add memory-original.js as a script in the application. It assumes its
+own DOM, uses globals, and binds events immediately. No upstream HTML/CSS,
+Font Awesome glyphs/CDN, Google Fonts, screenshots or other assets are included.
+
+Key original excerpts (line references in vendor/memory-original.js):
+  L4:  let nmbr = Math.round(Math.random() * (memory.length - 1));
+  L54: attempt++
+  L56: if(activecard == this.firstChild.classList[1]){ //if both cards match
+  L85: item.removeEventListener('click', game); //so you don't press another card while two are active
+  L99: },1000);
+These are review excerpts, not a runtime-ready A3 implementation.
+
+Initial adaptation assessment (reference only; no copying was ultimately needed):
+- Lines 1-8: sixteen symbol entries form eight pairs. The Math.round random
+  splice is biased; replace with an unbiased Fisher-Yates shuffle driven by
+  the host random source. Use locally generated, consistent symbols instead
+  of the unaudited Font Awesome class names.
+- Lines 10-26: DOM bindings and mutable globals must become session-local state
+  with host-managed listeners. Declare all variables; do not preserve implicit
+  globals or the hard-coded #attempts/#points DOM contract.
+- Lines 40-54: timer starts on first click and attempt increments on first flip.
+  A3 instead starts its monotonic clock when the board becomes playable after
+  preparation and counts one step only on a valid SECOND distinct card flip.
+  Same-card, already-matched, locked, expired and terminal inputs are no-ops.
+  Do not copy the same-card listener-removal side effect at lines 48-49.
+- Lines 56-62: reuse/adapt the equality comparison, matched-pair retention and
+  reset of the active selection. Prefer explicit symbol IDs and matched state
+  over firstChild.classList[1] and per-card removeEventListener bookkeeping.
+- Lines 64-79: discard all upstream score multipliers. Report matchedPairs M,
+  steps P and elapsed time t to the host for the specified A3 score:
+  S(100*(M/8)*(0.7*M/max(P,1) + 0.3*clip((120-t)/90,0,1))). t is in seconds.
+- Lines 81-99: adapt the two-card mismatch lock and delayed simultaneous cover.
+  Replace the 1000 ms timeout with the specified 700 ms, and use an explicit
+  lock plus a host-owned cancellable callback rather than bulk listener removal
+  and reattachment. No third flip during mismatch feedback, and no extra 500 ms
+  feedback stage. Cancel pending cover callbacks on finish, timeout or abort.
+- Lines 30-38 and 40-45: replace Date/rounded seconds/interval logging with the
+  host monotonic clock and absolute 120000 ms deadline. Complete once at eight
+  pairs or deadline; an unfinished single flip is not a step. Ignore obsolete
+  callbacks after destroy and never write scores/storage directly from A3.
+
+The independent A3 implementation is covered by tests/memory-reaction.test.cjs
+and tests/host-storage.test.cjs for pairs, input locks, deadlines and cleanup.
+The reference source retains MIT attribution; no upstream game code runs in
+MindOrbit. No independent human usability review is claimed.
+
+First-party game implementation inventory
+A1 matrix memory, A2 digit span, A3 matching pairs: independent host-based code.
+B1 rotation, B2 contour completion, B3 analogies: original SVG/data and game code.
+C1 number series, C2 figure patterns, C3 truth statements: original generators/code.
+D1 reaction, D2 Stroop-style task, D3 target clicks: independent implementations.
+E1 2-back, E2 number grid, E3 visual search: independent implementations.
+F1 arithmetic, F2 running sum: original generators/code.
+F3 24-point judgement: original game and enumeration; Fraction.js reused only
+for developer-time rational arithmetic, as documented above.
+Generic task paradigms do not imply copied proprietary question banks.
+The favicon, orbital hero artwork and all game stimuli are original local SVG/CSS.
+B2 recognizability and B3 semantics still require independent human review.
+
+Reproduction and verification
+From the project root (developer commands only; no npm install or build):
+  node tools/generate-24.cjs
+  node --test tests/twenty-four.test.cjs
+
+Executed on Windows with Node v24.22.1 on 2026-11-22: 11 tests passed, 0 failed.
+The generated pool was exhaustively verified: 495 total / 404 solvable / 91
+unsolvable, all 404 witnesses valid, and regeneration byte-identical. All 19
+acquired files (5 vendor source/license files and 14 SVGs) match their recorded
+SHA-256 fingerprints. Public pinned raw-file retrieval succeeded for every
+requested file; no acquisition blocker or icon substitution was necessary.

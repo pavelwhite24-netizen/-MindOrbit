@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101116">
+  <meta name="description" content="MindOrbit 脑力轨道：18 款趣味脑力小游戏，练习记忆、逻辑、专注与计算。无账号，本地保存。">
+  <title>MindOrbit · 脑力轨道</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/app.css">
+  <script defer src="js/core/random.js"></script>
+  <script defer src="js/data/catalog.js"></script>
+  <script defer src="js/core/scoring.js"></script>
+  <script defer src="js/core/storage.js"></script>
+  <script defer src="js/core/ui.js"></script>
+  <script defer src="js/core/game-host.js"></script>
+  <script defer src="js/core/router.js"></script>
+  <script defer src="js/data/questions.js"></script>
+  <script defer src="js/data/stimuli.js"></script>
+  <script defer src="js/data/twenty-four.js"></script>
+  <script defer src="js/games/memory.js"></script>
+  <script defer src="js/games/imagination.js"></script>
+  <script defer src="js/games/logic.js"></script>
+  <script defer src="js/games/reaction.js"></script>
+  <script defer src="js/games/attention.js"></script>
+  <script defer src="js/games/calculation.js"></script>
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">跳到主要内容</a>
+  <aside class="sidebar" aria-label="主导航">
+    <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true">m<span>o</span></span><span>MindOrbit<small>脑力轨道</small></span></a>
+    <p class="nav-caption">你的思维练习室</p>
+    <nav>
+      <a href="#/" data-nav="home"><img class="nav-glyph icon" src="assets/icons/grid-2x2.svg" alt="">训练空间</a>
+      <a href="#/history" data-nav="history"><img class="nav-glyph icon" src="assets/icons/chart-no-axes-combined.svg" alt="">成长记录</a>
+      <a href="#/settings" data-nav="settings"><img class="nav-glyph icon" src="assets/icons/settings-2.svg" alt="">偏好设置</a>
+    </nav>
+    <div class="sidebar-note"><span class="tiny-orbit" aria-hidden="true"></span><strong>一点练习，一点新发现。</strong><p>无需与他人比较，<br>让好奇心带你向前。</p></div>
+    <div class="privacy-chip"><span class="status-dot"></span>无账号 · 无追踪 · 本地保存</div>
+  </aside>
+  <div class="app-shell">
+    <header class="topbar"><span id="breadcrumb">训练空间</span><div><span class="local-tag">LOCAL FIRST</span><span class="profile-mark" aria-label="本地用户">M</span></div></header>
+    <main id="main" tabindex="-1"><div class="loading">正在准备你的训练空间…</div></main>
+    <footer><span>MindOrbit · 保持好奇，让思维自在运行</span><span>趣味练习，不是智力或医学测评</span></footer>
+  </div>
+  <dialog id="confirm-dialog" aria-labelledby="dialog-title"><form method="dialog"><span class="eyebrow">请确认</span><h2 id="dialog-title"></h2><p id="dialog-description"></p><div class="dialog-actions"><button value="cancel" class="button secondary">取消</button><button value="confirm" class="button primary">确认</button></div></form></dialog>
+  <noscript>MindOrbit 需要启用 JavaScript。所有游戏均在本地运行，不上传你的成绩。</noscript>
+</body>
+</html>
